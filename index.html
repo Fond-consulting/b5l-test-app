@@ -241,7 +241,7 @@
             acc[faceta].push(item);
             return acc;
         }, {});
-        const shuffledFacetKeys = Object.keys(itemsByFacet).sort(() => Math.random() - 0.5);
+        const shuffledFacetKeys = Object.keys(itemsByFacet).sort();
         const maxItems = Math.max(...Object.values(itemsByFacet).map(arr => arr.length));
         const shuffled = [];
         for (let i = 0; i < maxItems; i++) {
