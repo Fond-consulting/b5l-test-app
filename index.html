@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Test de Personalidad B5L</title>
+
+  <!-- Google Fonts: AHORA SÓLO CARGAMOS INTER -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --clr-primary: #222c45;
+      --clr-accent-from: #70b37d;
+      --clr-accent-to: #9dd0a4;
+      --clr-surface: #ffffff;
+      --clr-scale-bg: #f0f4f8;
+      --clr-scale-hover: #e5edf0;
+      --clr-border: #d0d5dd;
+      --radius: .75rem;
+      /* La fuente principal ahora es Inter */
+      --font-main: "Inter", sans-serif;
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{height:100%;}
+    body{
+      /* APLICAMOS INTER A TODO EL DOCUMENTO */
+      font-family: var(--font-main);
+      color:var(--clr-primary);
+      background:var(--clr-surface);
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content: center;
+      padding: 3rem 1rem 6rem;
+      min-height: 100%;
+    }
+    
+    #start-screen, #test-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 900px;
+    }
+
+    #start-screen h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+    }
+    #start-screen p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        text-align: center;
+        max-width: 650px;
+        margin-bottom: 1rem;
+        font-weight: 400; /* Peso Regular para los párrafos */
+    }
+    #start-btn {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--clr-surface);
+        background-color: var(--clr-accent-from);
+        border: none;
+        border-radius: var(--radius);
+        padding: 0.8rem 2.5rem;
+        cursor: pointer;
+        margin-top: 2rem;
+        transition: background-color .2s;
+        font-family: var(--font-main); /* Aseguramos herencia */
+    }
+    #start-btn:hover {
+        background-color: #63a270;
+    }
+
+    #question-text{
+      font-size:2rem;
+      font-weight:700;
+      line-height:1.3;
+      text-align:center;
+      margin-inline:auto;
+      margin-bottom:3rem;
+    }
+    .scale{
+      display:flex;
+      flex-direction:column;
+      gap:1.25rem;
+      width:100%;
+      max-width:620px;
+    }
+    .answer-btn{
+      width:100%;
+      padding:1.125rem 1.25rem;
+      font-size:1.05rem;
+      font-weight:500;
+      border-radius:var(--radius);
+      background:var(--clr-scale-bg);
+      border:none;
+      cursor:pointer;
+      text-align: center;
+      transition:background .25s, transform .1s;
+      color: var(--clr-primary);
+      font-family: var(--font-main); /* Aseguramos herencia */
+    }
+    .answer-btn:hover:not(:disabled) {
+      background:var(--clr-scale-hover);
+    }
+    .answer-btn:active:not(:disabled) {
+      transform: scale(0.99);
+    }
+    .answer-btn.selected {
+        background-color: #d1e9d6;
+        font-weight: 600;
+    }
+    
+    footer{
+      position:fixed;
+      left:0;
+      bottom:0;
+      width:100%;
+      background:var(--clr-surface);
+      border-top:1px solid var(--clr-border);
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding:.75rem 1rem;
+    }
+    #prev-btn{
+      width:42px;
+      height:42px;
+      border:1px solid var(--clr-border);
+      border-radius:8px;
+      background:var(--clr-surface);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      cursor:pointer;
+      transition:background .25s;
+    }
+    #prev-btn svg{stroke:var(--clr-primary);transition:stroke .25s;width:16px;height:16px;}
+    #prev-btn:hover:not(:disabled){background:#f5f7f8;}
+    #prev-btn:disabled{opacity:.4;cursor:not-allowed;}
+    .progress-wrapper{
+      flex:1;
+      height:4px;
+      background:#e5e7eb;
+      border-radius:2px;
+      margin:0 1rem;
+      overflow:hidden;
+    }
+    #progress-bar{
+      height:100%;
+      width:0%;
+      background:linear-gradient(90deg,var(--clr-accent-from) 0%,var(--clr-accent-to) 100%);
+      transition:width .3s ease;
+    }
+    .powered{
+      font-size:.8rem;
+      display:flex;
+      align-items:center;
+      gap:.6rem;
+      color:#6b7280;
+    }
+    .powered img{height:22px;}
+
+    @media (max-width: 600px) {
+      body {
+        justify-content: flex-start;
+        padding-top: 5rem;
+      }
+      #start-screen h1 { font-size: 2rem; }
+      #start-screen p { font-size: 1rem; }
+      .powered img { height: 18px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="start-screen">
+      <h1>Vamos a empezar...</h1>
+      <p>Lee cuidadosamente cada una de las afirmaciones y selecciona la opción que mejor exprese tu grado de acuerdo (falso o cierto para ti). No hay respuestas correctas o incorrectas, cada persona es diferente. Responde de la manera que mejor te describa a ti mismo.</p>
+      <p>Este test no tiene límite de tiempo, pero intenta contestar sin entretenerte demasiado.</p>
+      <p>La primera impresión suele ser la más acertada. No dejes respuestas en blanco.</p>
+      <p>Recuerda, si necesitas una pausa, cierra el navegador y cuando vuelvas a entrar, continuarás donde lo dejaste.</p>
+      <button id="start-btn">Empezar</button>
+  </div>
+
+  <div id="test-container" style="display: none;">
+      <h2 id="question-text">Cargando preguntas...</h2>
+      <div class="scale" id="scale-container"></div>
+  </div>
+
+  <footer>
+    <button id="prev-btn" aria-label="Pregunta anterior" disabled>
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <div class="progress-wrapper"><div id="progress-bar" style="width: 0%;"></div></div>
+    <div class="powered">
+      powered by <img src="Logotipo_Smartest_H_color.png" alt="SMARTTEST logo" />
+    </div>
+  </footer>
+
+  <script>
+    // --- DATOS Y CONFIGURACIÓN ---
+    const allItems = [ /* ... La lista de 252 items no cambia, así que la omito por brevedad ... */ ];
+    const answerLabels = [
+      'No estoy nada de acuerdo', 'Estoy un poco de acuerdo', 'No estoy de acuerdo ni en desacuerdo',
+      'Estoy bastante de acuerdo', 'Estoy completamente de acuerdo'
+    ];
+    
+    const startScreen = document.getElementById('start-screen');
+    const testContainer = document.getElementById('test-container');
+    const startBtn = document.getElementById('start-btn');
+    const qText = document.getElementById('question-text');
+    const scaleContainer = document.getElementById('scale-container');
+    const prevBtn = document.getElementById('prev-btn');
+    const progressBar = document.getElementById('progress-bar');
+    const footer = document.querySelector('footer');
+
+    let questionOrder = [];
+    let currentQuestionIndex = 0;
+    const userAnswers = {};
+
+    // --- LÓGICA DE LA APLICACIÓN ---
+    function startTest() {
+        startScreen.style.display = 'none';
+        testContainer.style.display = 'flex';
+        footer.style.display = 'flex';
+        
+        questionOrder = shuffleQuestions();
+        renderQuestion();
+    }
+    
+    function shuffleQuestions() {
+        const itemsByFacet = allItems.reduce((acc, item) => {
+            const faceta = item.faceta;
+            if (!acc[faceta]) acc[faceta] = [];
+            acc[faceta].push(item);
+            return acc;
+        }, {});
+        const shuffledFacetKeys = Object.keys(itemsByFacet).sort(() => Math.random() - 0.5);
+        const maxItems = Math.max(...Object.values(itemsByFacet).map(arr => arr.length));
+        const shuffled = [];
+        for (let i = 0; i < maxItems; i++) {
+            for (const key of shuffledFacetKeys) {
+                if (itemsByFacet[key][i]) shuffled.push(itemsByFacet[key][i]);
+            }
+        }
+        return shuffled;
+    }
+
+    function renderQuestion() {
+      const totalQuestions = questionOrder.length;
+      const item = questionOrder[currentQuestionIndex];
+      qText.textContent = item.texto;
+      const answeredCount = Object.keys(userAnswers).length;
+      progressBar.style.width = `${(answeredCount / totalQuestions) * 100}%`;
+      scaleContainer.innerHTML = '';
+      answerLabels.forEach((label, value) => {
+        const btn = document.createElement('button');
+        btn.className = 'answer-btn';
+        btn.textContent = label;
+        btn.dataset.value = value;
+        if (userAnswers[item.id] === value) {
+            btn.classList.add('selected');
+        }
+        btn.onclick = (event) => {
+          userAnswers[item.id] = value;
+          scaleContainer.style.pointerEvents = 'none';
+          const allButtons = scaleContainer.querySelectorAll('.answer-btn');
+          allButtons.forEach(b => b.classList.remove('selected'));
+          event.currentTarget.classList.add('selected');
+          setTimeout(() => {
+            if (currentQuestionIndex < totalQuestions - 1) {
+              currentQuestionIndex++;
+              renderQuestion();
+            } else {
+              const finalAnsweredCount = Object.keys(userAnswers).length;
+              progressBar.style.width = '100%';
+              showFinalScreen();
+            }
+            scaleContainer.style.pointerEvents = 'auto';
+          }, 340);
+        };
+        scaleContainer.appendChild(btn);
+      });
+      prevBtn.disabled = currentQuestionIndex === 0;
+    }
+    
+    function showFinalScreen() {
+        testContainer.innerHTML = `
+            <h2 id="question-text">¡Test completado!</h2>
+            <p style="text-align:center; max-width: 650px; font-size: 1.1rem; line-height: 1.6;">Gracias por completar el test. Tus resultados están siendo procesados...</p>
+        `;
+        footer.style.display = 'none';
+    }
+
+    startBtn.onclick = startTest;
+    prevBtn.onclick = () => {
+      if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        renderQuestion();
+      }
+    };
+
+    // Repongo aquí la lista de items para que el código sea completo
+    allItems.push(
+      { id: "00_IT1_F1E", texto: "Normalmente, me gusta la mayoría de gente que conozco.", faceta: "F1E" },
+      { id: "00_IT2_F1E", texto: "No me gusta demasiado hablar con la gente.", faceta: "F1E" },
+      { id: "00_IT3_F1E", texto: "Me conocen por ser una persona afectuosa y amable.", faceta: "F1E" },
+      { id: "00_IT4_F1E", texto: "Muchas personas piensan de mí que soy algo frío/a y distante.", faceta: "F1E" },
+      { id: "00_IT5_F1E", texto: "Verdaderamente disfruto hablando con la gente.", faceta: "F1E" },
+      { id: "00_IT6_F1E", texto: "Me es fácil sonreír y ser sociable con personas extrañas.", faceta: "F1E" },
+      { id: "00_IT7_F1E", texto: "Tengo fuertes vínculos emocionales con mis amigos.", faceta: "F1E" },
+      { id: "00_IT8_F1E", texto: "Tengo un interés personal por las personas con las que trabajo.", faceta: "F1E" },
+      { id: "00_IT1_F2E", texto: "No me gustan los lugares donde hay mucha gente.", faceta: "F2E" },
+      { id: "00_IT2_F2E", texto: "Me gusta tener muchas personas a mi alrededor.", faceta: "F2E" },
+      { id: "00_IT3_F2E", texto: "Normalmente prefiero hacer las cosas yo sólo/a.", faceta: "F2E" },
+      { id: "00_IT4_F2E", texto: "No puedo estar solo/a mucho tiempo, realmente necesito a otras personas.", faceta: "F2E" },
+      { id: "00_IT5_F2E", texto: "Prefiero trabajos en solitario, sin que otros me molesten.", faceta: "F2E" },
+      { id: "00_IT6_F2E", texto: "Prefiero pasar las vacaciones en una playa frecuentada por mucha gente que en una cabaña aislada en el bosque.", faceta: "F2E" },
+      { id: "00_IT7_F2E", texto: "Las reuniones sociales son generalmente aburridas.", faceta: "F2E" },
+      { id: "00_IT8_F2E", texto: "Disfruto de las fiestas donde hay muchas personas.", faceta: "F2E" },
+      { id: "00_IT1_F3E", texto: "Soy una persona dominante, enérgica y que defiende con rotundidad su postura.", faceta: "F3E" },
+      { id: "00_IT2_F3E", texto: "Algunas veces no puedo sostener mi opinión o mi criterio.", faceta: "F3E" },
+      { id: "00_IT3_F3E", texto: "Con frecuencia he sido líder de los grupos a los que he pertenecido.", faceta: "F3E" },
+      { id: "00_IT4_F3E", texto: "En las reuniones, normalmente dejo que otros hablen.", faceta: "F3E" },
+      { id: "00_IT5_F3E", texto: "Frecuentemente, los demás esperan que sea yo quien tome las decisiones.", faceta: "F3E" },
+      { id: "00_IT6_F3E", texto: "Preferiría seguir mi camino que liderar a otras personas.", faceta: "F3E" },
+      { id: "00_IT7_F3E", texto: "Tiendo a monopolizar todas las conversaciones.", faceta: "F3E" },
+      { id: "00_IT8_F3E", texto: "No me resulta sencillo llevar el control de una situación.", faceta: "F3E" },
+      { id: "00_IT1_F4E", texto: "Me comporto con tranquilidad tanto en el trabajo como en el ocio.", faceta: "F4E" },
+      { id: "00_IT2_F4E", texto: "Cuando hago algo, lo hago con ganas.", faceta: "F4E" },
+      { id: "00_IT3_F4E", texto: "Normalmente trabajo sin prisas pero sin pausas.", faceta: "F4E" },
+      { id: "00_IT4_F4E", texto: "Frecuentemente me siento lleno de energía.", faceta: "F4E" },
+      { id: "00_IT5_F4E", texto: "No soy tan despierto/a y animado/a como otras personas.", faceta: "F4E" },
+      { id: "00_IT6_F4E", texto: "Habitualmente parece que tengo prisa.", faceta: "F4E" },
+      { id: "00_IT7_F4E", texto: "Mi vida es muy agitada y con un gran número de actividades.", faceta: "F4E" },
+      { id: "00_IT8_F4E", texto: "Soy una persona muy activa y dinámica.", faceta: "F4E" },
+      { id: "00_IT1_F5E", texto: "A menudo busco situaciones excitantes.", faceta: "F5E" },
+      { id: "00_IT2_F5E", texto: "No disfrutaría de unas vacaciones en Las Vegas.", faceta: "F5E" },
+      { id: "00_IT3_F5E", texto: "Algunas veces he hecho cosas solamente por el placer o la emoción que conllevaban.", faceta: "F5E" },
+      { id: "00_IT4_F5E", texto: "Tiendo a evitar las películas de terror.", faceta: "F5E" },
+      { id: "00_IT5_F5E", texto: "Quiero estar donde se encuentre la acción.", faceta: "F5E" },
+      { id: "00_IT6_F5E", texto: "Me encanta la emoción de la montaña rusa y de otras atracciones parecidas", faceta: "F5E" },
+      { id: "00_IT7_F5E", texto: "Me atraen los colores llamativos y las intensidades estimulares intensas.", faceta: "F5E" },
+      { id: "00_IT8_F5E", texto: "Me gusta sentirme parte del público en los actos deportivos emocionantes.", faceta: "F5E" },
+      { id: "00_IT1_F6E", texto: "Normalmente, nunca suelo tener expresiones de alegría desmesurada.", faceta: "F6E" },
+      { id: "00_IT2_F6E", texto: "Algunas veces he experimentado una intensa felicidad o éxtasis.", faceta: "F6E" },
+      { id: "00_IT3_F6E", texto: "No soy una persona especialmente animada y optimista.", faceta: "F6E" },
+      { id: "00_IT4_F6E", texto: "Algunas veces me encuentro muy feliz.", faceta: "F6E" },
+      { id: "00_IT5_F6E", texto: "No me considero una persona especialmente alegre.", faceta: "F6E" },
+      { id: "00_IT6_F6E", texto: "Soy una persona alegre, animada y optimista.", faceta: "F6E" },
+      { id: "00_IT7_F6E", texto: "Raramente uso expresiones como “¡fantástico!” o “¡sensacional!” para describir lo que siento.", faceta: "F6E" },
+      { id: "00_IT8_F6E", texto: "Normalmente, soy una persona que se ríe con facilidad.", faceta: "F6E" },
+      { id: "00_IT1_F1RE", texto: "Yo no soy una persona que se preocupe en exceso.", faceta: "F1RE" },
+      { id: "00_IT2_F1RE", texto: "Soy una persona que se asusta fácilmente.", faceta: "F1RE" },
+      { id: "00_IT3_F1RE", texto: "Raramente me siento nervioso/a o con miedo.", faceta: "F1RE" },
+      { id: "00_IT4_F1RE", texto: "Con frecuencia me siento tenso/a y alterado/a.", faceta: "F1RE" },
+      { id: "00_IT5_F1RE", texto: "Rara vez siento preocupación sobre el futuro.", faceta: "F1RE" },
+      { id: "00_IT6_F1RE", texto: "Frecuentemente me preocupa que las cosas me puedan ir mal.", faceta: "F1RE" },
+      { id: "00_IT7_F1RE", texto: "Creo que soy una persona que tiene menos miedos que la mayoría de la gente.", faceta: "F1RE" },
+      { id: "00_IT8_F1RE", texto: "A veces tengo pensamientos de miedo.", faceta: "F1RE" },
+      { id: "00_IT1_F2RE", texto: "Me enfado a menudo por la forma en que me tratan los demás.", faceta: "F2RE" },
+      { id: "00_IT2_F2RE", texto: "Soy una persona apacible y tranquila.", faceta: "F2RE" },
+      { id: "00_IT3_F2RE", texto: "Me conocen como impetuoso/a y por enfadarme fácilmente.", faceta: "F2RE" },
+      { id: "00_IT4_F2RE", texto: "No se me considera una persona puntillosa o temperamental.", faceta: "F2RE" },
+      { id: "00_IT5_F2RE", texto: "Frecuentemente acabo molesto/a con la gente con quien tengo que relacionarme.", faceta: "F2RE" },
+      { id: "00_IT6_F2RE", texto: "Me cuesta mucho ponerme de mal humor y enfadarme.", faceta: "F2RE" },
+      { id: "00_IT7_F2RE", texto: "A veces me he sentido amargado/a y resentido/a.", faceta: "F2RE" },
+      { id: "00_IT8_F2RE", texto: "Las pequeñas molestias pueden llegar a frustrarme.", faceta: "F2RE" },
+      { id: "00_IT1_F3RE", texto: "Raramente me siento solo/a o decaído/a.", faceta: "F3RE" },
+      { id: "00_IT2_F3RE", texto: "Algunas veces me siento completamente inútil.", faceta: "F3RE" },
+      { id: "00_IT3_F3RE", texto: "Casi nunca estoy triste o con bajones en mi estado de ánimo.", faceta: "F3RE" },
+      { id: "00_IT4_F3RE", texto: "Algunas veces he tenido un profundo sentimiento de culpa por mis acciones.", faceta: "F3RE" },
+      { id: "00_IT5_F3RE", texto: "Tiendo a culpabilizarme cuando algo sale mal.", faceta: "F3RE" },
+      { id: "00_IT6_F3RE", texto: "Tengo una pobre opinión de mí mismo/a.", faceta: "F3RE" },
+      { id: "00_IT7_F3RE", texto: "Algunas veces las cosas me parecen poco prometedoras y sin esperanza.", faceta: "F3RE" },
+      { id: "00_IT8_F3RE", texto: "Frecuentemente y cuando las cosas van mal, me desanimo y tengo ganas de rendirme.", faceta: "F3RE" },
+      { id: "00_IT1_F4RE", texto: "En el trato con los demás siempre temo meter la pata y hacer el ridículo.", faceta: "F4RE" },
+      { id: "00_IT2_F4RE", texto: "Pocas veces me siento cohibido/a cuando estoy con otras personas.", faceta: "F4RE" },
+      { id: "00_IT3_F4RE", texto: "A veces me he sentido tan avergonzado/a que sólo quería esconderme para que nadie me viera.", faceta: "F4RE" },
+      { id: "00_IT4_F4RE", texto: "No me siento mal si la gente se ríe de mí, no me toma en serio y me toma el pelo.", faceta: "F4RE" },
+      { id: "00_IT5_F4RE", texto: "Frecuentemente me siento inferior a los demás.", faceta: "F4RE" },
+      { id: "00_IT6_F4RE", texto: "Me siento cómodo/a en presencia de mis jefes u otros superiores.", faceta: "F4RE" },
+      { id: "00_IT7_F4RE", texto: "Si he dicho o hecho algo malo a alguien, casi no puedo enfrentarme con él otra vez y mirarle a la cara.", faceta: "F4RE" },
+      { id: "00_IT8_F4RE", texto: "Cuando las personas que conozco hacen tonterías, siento mucha vergüenza.", faceta: "F4RE" },
+      { id: "00_IT1_F5RE", texto: "Raramente abuso de algo y me paso de la ralla.", faceta: "F5RE" },
+      { id: "00_IT2_F5RE", texto: "Tengo problemas para resistirme a mis deseos y caprichos.", faceta: "F5RE" },
+      { id: "00_IT3_F5RE", texto: "No me resulta complicado resistir a la tentación.", faceta: "F5RE" },
+      { id: "00_IT4_F5RE", texto: "Con mis platos favoritos, suelo comer en exceso.", faceta: "F5RE" },
+      { id: "00_IT5_F5RE", texto: "Raramente me dejo llevar por impulsos o arrebatos instantáneos.", faceta: "F5RE" },
+      { id: "00_IT6_F5RE", texto: "A veces como hasta hartarme.", faceta: "F5RE" },
+      { id: "00_IT7_F5RE", texto: "Algunas veces hago cosas sin pensarlas y luego me arrepiento de ello.", faceta: "F5RE" },
+      { id: "00_IT8_F5RE", texto: "Siempre puedo controlar mis emociones.", faceta: "F5RE" },
+      { id: "00_IT1_F6RE", texto: "A veces me siento indefenso/a y deseo que los demás resuelvan mis problemas.", faceta: "F6RE" },
+      { id: "00_IT2_F6RE", texto: "Me siento capaz de resolver la mayoría de mis problemas.", faceta: "F6RE" },
+      { id: "00_IT3_F6RE", texto: "Si estoy presionado, algunas veces me siento como si me rompiera en pedazos.", faceta: "F6RE" },
+      { id: "00_IT4_F6RE", texto: "Normalmente, mantengo el control ante una situación crítica.", faceta: "F6RE" },
+      { id: "00_IT5_F6RE", texto: "Frecuentemente me cuesta decidirme.", faceta: "F6RE" },
+      { id: "00_IT6_F6RE", texto: "Me controlo muy bien durante una crisis o en una situación de fuerte estrés.", faceta: "F6RE" },
+      { id: "00_IT7_F6RE", texto: "Cuando todo parece ir mal, todavía soy capaz de tomar buenas decisiones.", faceta: "F6RE" },
+      { id: "00_IT8_F6RE", texto: "Tengo mucha estabilidad emocional.", faceta: "F6RE" },
+      { id: "00_IT1_F1C", texto: "Tiendo a ser desconfiado/a y escéptico/a sobre las intenciones de las otras personas.", faceta: "F1C" },
+      { id: "00_IT2_F1C", texto: "Creo que la mayoría de la gente es bien intencionada.", faceta: "F1C" },
+      { id: "00_IT3_F1C", texto: "La mayoría de la gente se aprovecharía de uno/a si pudieran.", faceta: "F1C" },
+      { id: "00_IT4_F1C", texto: "Casi todas las personas con las que me relaciono son honradas y de confianza.", faceta: "F1C" },
+      { id: "00_IT5_F1C", texto: "Cuando alguien hace algo bueno por mí, tiendo a sospechar que pretende algo.", faceta: "F1C" },
+      { id: "00_IT6_F1C", texto: "Mi primera reacción es de confiar en la gente.", faceta: "F1C" },
+      { id: "00_IT7_F1C", texto: "Tiendo a pensar bien de la gente y a ver su mejor lado.", faceta: "F1C" },
+      { id: "00_IT8_F1C", texto: "Personalmente tengo una gran fe en la naturaleza humana.", faceta: "F1C" },
+      { id: "00_IT1_F2C", texto: "No soy ingenioso/a o astuto/a.", faceta: "F2C" },
+      { id: "00_IT2_F2C", texto: "Si es necesario, manipularía a la gente para conseguir mis objetivos.", faceta: "F2C" },
+      { id: "00_IT3_F2C", texto: "No podría engañar a nadie aunque quisiera.", faceta: "F2C" },
+      { id: "00_IT4_F2C", texto: "Ser completamente honrado/a es perjudicial para los negocios.", faceta: "F2C" },
+      { id: "00_IT5_F2C", texto: "No me gustaría que me considerasen como un/a hipócrita o como una persona falsa", faceta: "F2C" },
+      { id: "00_IT6_F2C", texto: "A veces engaño a la gente para que hagan lo que quiero.", faceta: "F2C" },
+      { id: "00_IT7_F2C", texto: "A veces intimido o halago a la gente para que hagan lo que quiero.", faceta: "F2C" },
+      { id: "00_IT8_F2C", texto: "Estoy orgulloso de mi inteligencia a la hora de relacionarme con los demás.", faceta: "F2C" },
+      { id: "00_IT1_F3C", texto: "Algunas personas piensan de mi que soy interesado/a y egoísta.", faceta: "F3C" },
+      { id: "00_IT2_F3C", texto: "Trato de ser amable y educado con todo el mundo que conozco.", faceta: "F3C" },
+      { id: "00_IT3_F3C", texto: "Es probable que algunas personas me consideren frío/a y calculador/a.", faceta: "F3C" },
+      { id: "00_IT4_F3C", texto: "Generalmente, trato de ser atento/a con las otras personas.", faceta: "F3C" },
+      { id: "00_IT5_F3C", texto: "Se puede decir que la generosidad no es una de mis principales virtudes.", faceta: "F3C" },
+      { id: "00_IT6_F3C", texto: "Le caigo bien a la mayoría de gente que conozco.", faceta: "F3C" },
+      { id: "00_IT7_F3C", texto: "Me considero una persona caritativa que no duda en ayudar a los que más lo necesitan.", faceta: "F3C" },
+      { id: "00_IT8_F3C", texto: "Si puedo, me tomo la molestia de ayudar a los demás aunque me cueste mi tiempo y mi dinero.", faceta: "F3C" },
+      { id: "00_IT1_F4C", texto: "Prefiero cooperar con otras personas a tener que competir con ellos.", faceta: "F4C" },
+      { id: "00_IT2_F4C", texto: "Puedo ser muy sarcástico/a y cortante cuando pienso que necesito serlo.", faceta: "F4C" },
+      { id: "00_IT3_F4C", texto: "Me cuesta mucho expresar mi ira aun cuando sea justificada.", faceta: "F4C" },
+      { id: "00_IT4_F4C", texto: "Si alguien no me gusta, se lo digo claramente.", faceta: "F4C" },
+      { id: "00_IT5_F4C", texto: "Si me han insultado, sólo trato de perdonar y olvidar.", faceta: "F4C" },
+      { id: "00_IT6_F4C", texto: "Si alguien comienza una pelea, estoy preparado/a para luchar. Es decir, si me buscan me encuentran.", faceta: "F4C" },
+      { id: "00_IT7_F4C", texto: "Soy terco/a y testarudo/a.", faceta: "F4C" },
+      { id: "00_IT8_F4C", texto: "Suelo mantener discusiones frecuentes con mi familia y con los compañeros de trabajo.", faceta: "F4C" },
+      { id: "00_IT1_F5C", texto: "No me importa alardear de mis meritos y virtudes.", faceta: "F5C" },
+      { id: "00_IT2_F5C", texto: "Prefiero no hablar de mí mismo ni de mis logros.", faceta: "F5C" },
+      { id: "00_IT3_F5C", texto: "Pienso que soy mejor que la mayoría de personas y estoy convencido/a de ello.", faceta: "F5C" },
+      { id: "00_IT4_F5C", texto: "Normalmente trato de ser humilde.", faceta: "F5C" },
+      { id: "00_IT5_F5C", texto: "Tengo una elevada opinión de mí mismo/a y de mi capacidad.", faceta: "F5C" },
+      { id: "00_IT6_F5C", texto: "Pienso que no soy mejor que los demás, cualesquiera que sean sus características.", faceta: "F5C" },
+      { id: "00_IT7_F5C", texto: "Prefiero elogiar a los demás, que ser elogiado/a.", faceta: "F5C" },
+      { id: "00_IT8_F5C", texto: "Pienso de mi mismo/a que soy una persona superior.", faceta: "F5C" },
+      { id: "00_IT1_F6C", texto: "Los líderes políticos han de tener más en cuenta lo humano en sus discursos.", faceta: "F6C" },
+      { id: "00_IT2_F6C", texto: "Tengo una actitud poco sentimental en mi modo de actuar.", faceta: "F6C" },
+      { id: "00_IT3_F6C", texto: "Nunca podríamos hacer suficiente para las personas más necesitadas (pobres, personas mayores, etc.).", faceta: "F6C" },
+      { id: "00_IT4_F6C", texto: "No siento ninguna simpatía por los indigentes.", faceta: "F6C" },
+      { id: "00_IT5_F6C", texto: "Las necesidades humanas deben ser prioritarias sobre las cuestiones económicas.", faceta: "F6C" },
+      { id: "00_IT6_F6C", texto: "Pienso que todos los seres humanos merecen un respeto.", faceta: "F6C" },
+      { id: "00_IT7_F6C", texto: "Siento mucha compasión por las personas que son menos afortunadas que yo.", faceta: "F6C" },
+      { id: "00_IT8_F6C", texto: "Prefería que se me conociese más por “misericordioso/a” que por “justo/a”.", faceta: "F6C" },
+      { id: "00_IT1_F1R", texto: "Se me conoce por mi gran sentido común.", faceta: "F1R" },
+      { id: "00_IT2_F1R", texto: "No me importan demasiado las obligaciones cívicas, como por ejemplo votar.", faceta: "F1R" },
+      { id: "00_IT3_F1R", texto: "Me mantengo bien informado/a y normalmente mis decisiones son inteligentes.", faceta: "F1R" },
+      { id: "00_IT4_F1R", texto: "Con frecuencia me meto en situaciones para las que no estoy totalmente preparado/a.", faceta: "F1R" },
+      { id: "00_IT5_F1R", texto: "Estoy orgulloso/a de mi buen juicio.", faceta: "F1R" },
+      { id: "00_IT6_F1R", texto: "No parece que tenga un éxito completo en nada.", faceta: "F1R" },
+      { id: "00_IT7_F1R", texto: "Pienso de mi mismo/a que soy una persona muy competente.", faceta: "F1R" },
+      { id: "00_IT8_F1R", texto: "Normalmente soy muy eficiente y efectivo/a en mi trabajo.", faceta: "F1R" },
+      { id: "00_IT1_F2R", texto: "Prefiero improvisar que hacer planes.", faceta: "F2R" },
+      { id: "00_IT2_F2R", texto: "Mantengo mis cosas ordenadas y limpias.", faceta: "F2R" },
+      { id: "00_IT3_F2R", texto: "No soy una persona excesivamente metódica.", faceta: "F2R" },
+      { id: "00_IT4_F2R", texto: "Me gusta tenerlo todo ordenado para saber donde está exactamente cada cosa.", faceta: "F2R" },
+      { id: "00_IT5_F2R", texto: "Parece que nunca puedo organizarme completamente.", faceta: "F2R" },
+      { id: "00_IT6_F2R", texto: "Tiendo a ser un poco exigente con el orden de las cosas.", faceta: "F2R" },
+      { id: "00_IT7_F2R", texto: "No tengo manías sobre la limpieza.", faceta: "F2R" },
+      { id: "00_IT8_F2R", texto: "Dedico mucho tiempo a buscar cosas que he perdido.", faceta: "F2R" },
+      { id: "00_IT1_F3R", texto: "Trato de hacer mi trabajo lo mejor posible.", faceta: "F3R" },
+      { id: "00_IT2_F3R", texto: "Algunas veces no soy tan formal ni digno/a de confianza como debiera.", faceta: "F3R" },
+      { id: "00_IT3_F3R", texto: "Pago mis deudas a tiempo y en su totalidad.", faceta: "F3R" },
+      { id: "00_IT4_F3R", texto: "Algunas veces hago trampas cuando juego al solitario.", faceta: "F3R" },
+      { id: "00_IT5_F3R", texto: "Cuando me comprometo, siempre se puede esperar que cumpla.", faceta: "F3R" },
+      { id: "00_IT6_F3R", texto: "Me rijo estrictamente por mis propios principios éticos.", faceta: "F3R" },
+      { id: "00_IT7_F3R", texto: "Trato de realizar el trabajo con cuidado para que no haya que repetirlo.", faceta: "F3R" },
+      { id: "00_IT8_F3R", texto: "Tengo que estar verdaderamente enfermo/a para faltar al trabajo.", faceta: "F3R" },
+      { id: "00_IT1_F4R", texto: "Soy cómodo/a y no me agobio demasiado con mi trabajo.", faceta: "F4R" },
+      { id: "00_IT2_F4R", texto: "Tengo una serie de metas y me esfuerzo por alcanzarlas de forma ordenada.", faceta: "F4R" },
+      { id: "00_IT3_F4R", texto: "Cuando me propongo superarme en algo, pronto desisto y no consigo persistir en ello.", faceta: "F4R" },
+      { id: "00_IT4_F4R", texto: "Trabajo duro para conseguir mis objetivos.", faceta: "F4R" },
+      { id: "00_IT5_F4R", texto: "No tengo ganas de superarme.", faceta: "F4R" },
+      { id: "00_IT6_F4R", texto: "Me esfuerzo por conseguir todo lo que pueda.", faceta: "F4R" },
+      { id: "00_IT7_F4R", texto: "Me esfuerzo por hacerlo todo bien.", faceta: "F4R" },
+      { id: "00_IT8_F4R", texto: "Soy adicto/a a mi trabajo.", faceta: "F4R" },
+      { id: "00_IT1_F5R", texto: "Soy bastante hábil para marcarme un ritmo para hacer el trabajo a tiempo.", faceta: "F5R" },
+      { id: "00_IT2_F5R", texto: "Pierdo mucho tiempo antes de ponerme a trabajar.", faceta: "F5R" },
+      { id: "00_IT3_F5R", texto: "Soy una persona responsable que siempre cumple con su trabajo.", faceta: "F5R" },
+      { id: "00_IT4_F5R", texto: "Me es difícil obligarme a hacer lo que debo.", faceta: "F5R" },
+      { id: "00_IT5_F5R", texto: "Cuando comienzo algo, casi siempre lo termino.", faceta: "F5R" },
+      { id: "00_IT6_F5R", texto: "Cuando algo se me hace demasiado difícil, tiendo a empezar otra cosa.", faceta: "F5R" },
+      { id: "00_IT7_F5R", texto: "Hay tantas cosas pequeñas que hay que hacer, que a veces ni las tengo en cuenta.", faceta: "F5R" },
+      { id: "00_IT8_F5R", texto: "Tengo mucha auto-disciplina.", faceta: "F5R" },
+      { id: "00_IT1_F6R", texto: "He hecho bastantes tonterías en el pasado.", faceta: "F6R" },
+      { id: "00_IT2_F6R", texto: "Pienso las cosas cuidadosamente antes de decidir.", faceta: "F6R" },
+      { id: "00_IT3_F6R", texto: "A veces actúo primero y pienso después.", faceta: "F6R" },
+      { id: "00_IT4_F6R", texto: "Siempre sopeso las consecuencias antes de hacer algo.", faceta: "F6R" },
+      { id: "00_IT5_F6R", texto: "Frecuentemente hago las cosas por impulso.", faceta: "F6R" },
+      { id: "00_IT6_F6R", texto: "Rara vez tomo decisiones precipitadas.", faceta: "F6R" },
+      { id: "00_IT7_F6R", texto: "Cuando voy de viaje hago planes cuidadosamente.", faceta: "F6R" },
+      { id: "00_IT8_F6R", texto: "Antes de contestar a una pregunta, la pienso dos veces.", faceta: "F6R" },
+      { id: "00_IT1_F1AM", texto: "Tengo mucha imaginación.", faceta: "F1AM" },
+      { id: "00_IT2_F1AM", texto: "Trato de orientar mis pensamientos hacia la realidad y evitar fantasías.", faceta: "F1AM" },
+      { id: "00_IT3_F1AM", texto: "Soy una persona con mucha imaginación.", faceta: "F1AM" },
+      { id: "00_IT4_F1AM", texto: "No me gusta perder el tiempo en fantasías.", faceta: "F1AM" },
+      { id: "00_IT5_F1AM", texto: "Verdaderamente disfruto concentrándome en una fantasía y en explorar todas sus posibilidades, permitiéndola crecer y desarrollarse.", faceta: "F1AM" },
+      { id: "00_IT6_F1AM", texto: "Si siento que la mente se me llena de fantasías, normalmente me pongo a hacer algo y me concentro en algún trabajo o actividad.", faceta: "F1AM" },
+      { id: "00_IT7_F1AM", texto: "Cuando era niño/a raramente disfrutaba de los juegos de ficción.", faceta: "F1AM" },
+      { id: "00_IT8_F1AM", texto: "Me sería difícil dejar que mi mente vagara sin control o dirección.", faceta: "F1AM" },
+      { id: "00_IT1_F2AM", texto: "Para mí los intereses estéticos y artísticos no son muy importantes.", faceta: "F2AM" },
+      { id: "00_IT2_F2AM", texto: "A veces estoy totalmente inmerso/a en la música que escucho.", faceta: "F2AM" },
+      { id: "00_IT3_F2AM", texto: "El ballet clásico o moderno me aburre.", faceta: "F2AM" },
+      { id: "00_IT4_F2AM", texto: "Me intrigan las semejanzas que encuentro entre el arte y la naturaleza.", faceta: "F2AM" },
+      { id: "00_IT5_F2AM", texto: "La poesía me interesa poco.", faceta: "F2AM" },
+      { id: "00_IT6_F2AM", texto: "Ciertos tipos de música me fascinan enormemente", faceta: "F2AM" },
+      { id: "00_IT7_F2AM", texto: "Algunas veces cuando leo poesía o miro una obra de arte, siento un escalofrío o una gran emoción.", faceta: "F2AM" },
+      { id: "00_IT8_F2AM", texto: "Disfruto leyendo poesía que enfatiza más los sentimientos y las imágenes que los aspectos narrativos.", faceta: "F2AM" },
+      { id: "00_IT1_F3AM", texto: "Sin las emociones fuertes, mi vida no sería interesante.", faceta: "F3AM" },
+      { id: "00_IT2_F3AM", texto: "Raramente me expongo a emociones fuertes.", faceta: "F3AM" },
+      { id: "00_IT3_F3AM", texto: "Me importa mucho mi estado de ánimo.", faceta: "F3AM" },
+      { id: "00_IT4_F3AM", texto: "Raramente presto atención a los sentimientos del momento.", faceta: "F3AM" },
+      { id: "00_IT5_F3AM", texto: "Experimento una gran variedad de emociones y sentimientos.", faceta: "F3AM" },
+      { id: "00_IT6_F3AM", texto: "Raramente me doy cuenta de los estados de ánimo o emociones que producen ambientes diferentes.", faceta: "F3AM" },
+      { id: "00_IT7_F3AM", texto: "Me resulta fácil empatizar -sentir lo que sienten los demás, ponerme en su lugar-.", faceta: "F3AM" },
+      { id: "00_IT8_F3AM", texto: "Cosas raras -como ciertos olores o nombres de lugares lejanos- pueden evocar fuertes estados de ánimo en mi persona.", faceta: "F3AM" },
+      { id: "00_IT1_F4AM", texto: "Estoy muy acostumbrado a mi manera de ser.", faceta: "F4AM" },
+      { id: "00_IT2_F4AM", texto: "Creo que es interesante aprender cosas nuevas y desarrollar nuevas intereses.", faceta: "F4AM" },
+      { id: "00_IT3_F4AM", texto: "Cuando encuentro la forma de hacer algo correctamente, sigo trabajando así.", faceta: "F4AM" },
+      { id: "00_IT4_F4AM", texto: "Con frecuencia pruebo comidas nuevas de otros países.", faceta: "F4AM" },
+      { id: "00_IT5_F4AM", texto: "Prefiero pasar el rato en lugares que me resultan familiares.", faceta: "F4AM" },
+      { id: "00_IT6_F4AM", texto: "Algunas veces hago cambios en la decoración de la casa sólo para experimentar algo diferente.", faceta: "F4AM" },
+      { id: "00_IT7_F4AM", texto: "Cuando estoy de vacaciones, prefiero ir a un lugar que ya conozco.", faceta: "F4AM" },
+      { id: "00_IT8_F4AM", texto: "Cuando voy a un sitio siempre realizo el mismo recorrido.", faceta: "F4AM" },
+      { id: "00_IT1_F5AM", texto: "A menudo me gusta pensar y desarrollas ideas abstractas.", faceta: "F5AM" },
+      { id: "00_IT2_F5AM", texto: "Me aburren sobremanera las discusiones filosóficas.", faceta: "F5AM" },
+      { id: "00_IT3_F5AM", texto: "Disfruto resolviendo problemas o incógnitas difíciles.", faceta: "F5AM" },
+      { id: "00_IT4_F5AM", texto: "No me interesa cuando la gente habla de cosas que son muy abstractas.", faceta: "F5AM" },
+      { id: "00_IT5_F5AM", texto: "Disfruto resolviendo rompecabezas que son muy difíciles.", faceta: "F5AM" },
+      { id: "00_IT6_F5AM", texto: "Tengo poco interés en pensar sobre los enigmas del universo y de la condición humana.", faceta: "F5AM" },
+      { id: "00_IT7_F5AM", texto: "Tengo mucha curiosidad intelectual.", faceta: "F5AM" },
+      { id: "00_IT8_F5AM", texto: "Tengo una amplia variedad de temas que me interesan intelectualmente.", faceta: "F5AM" },
+      { id: "00_IT1_F6AM", texto: "Escuchar conferenciantes polémicos sólo confunde y engaña a los jóvenes.", faceta: "F6AM" },
+      { id: "00_IT2_F6AM", texto: "Las leyes y normas sociales deberían cambiar y reflejar las necesidades de un mundo cambiante.", faceta: "F6AM" },
+      { id: "00_IT3_F6AM", texto: "Tenemos que inspirarnos en nuestras autoridades religiosas para resolver cuestiones morales.", faceta: "F6AM" },
+      { id: "00_IT4_F6AM", texto: "Creo que las diferentes ideas sobre lo bueno y lo malo que las personas tienen en otras sociedades pueden ser totalmente válidas para ellas.", faceta: "F6AM" },
+      { id: "00_IT5_F6AM", texto: "Creo que la lealtad a los propios ideales y principios es más importante que la libertad de ideas.", faceta: "F6AM" },
+      { id: "00_IT6_F6AM", texto: "Me considero liberal y tolerante sobre el modo de vida de otras personas.", faceta: "F6AM" },
+      { id: "00_IT7_F6AM", texto: "Si las personas no saben en lo que creen cuando llegan a los 25 años, hay algo que no va bien.", faceta: "F6AM" },
+      { id: "00_IT8_F6AM", texto: "Creo que la tolerancia de la “nueva moralidad” no es ninguna moralidad.", faceta: "F6AM" },
+      { id: "00_IT1_DSDT", texto: "Siempre gano en los juegos en los que participo.", faceta: "DSDT" },
+      { id: "00_IT2_DSDT", texto: "Siempre he tenido la certeza absoluta de que todas mis acciones eran correctas.", faceta: "DSDT" },
+      { id: "00_IT3_DSDT", texto: "Nunca me he enfadado realmente con alguien.", faceta: "DSDT" },
+      { id: "00_IT4_DSDT", texto: "Nunca me he comportado de un modo egoísta.", faceta: "DSDT" },
+      { id: "00_IT5_DSDT", texto: "Nunca he contado algo sabiendo previamente que era mentira.", faceta: "DSDT" },
+      { id: "00_IT6_DSDT", texto: "Nunca he tenido miedo ante una situación peligrosa, aunque fuese grave.", faceta: "DSDT" },
+      { id: "00_IT7_DSDT", texto: "Todas las personas que conozco me caen realmente bien.", faceta: "DSDT" },
+      { id: "00_IT8_DSDT", texto: "Siempre he estado completamente de acuerdo con todo lo que hacían o decían los demás.", faceta: "DSDT" },
+      { id: "00_IT9_DSDT", texto: "Nunca me he saltado una norma social ni he desobedecido órdenes, ni siquiera cuando era pequeño.", faceta: "DSDT" },
+      { id: "00_IT10_DSDT", texto: "He sido capaz de resolver siempre de inmediato todos los problemas que me han surgido.", faceta: "DSDT" },
+      { id: "00_IT11_DSDT", texto: "Siempre lo hago todo de forma perfecta.", faceta: "DSDT" },
+      { id: "00_IT12_DSDT", texto: "Nunca he hablado mal de otras personas a sus espaldas.", faceta: "DSDT" }
+    );
+  </script>
+</body>
+</html>
