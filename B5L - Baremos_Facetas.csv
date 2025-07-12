@@ -1,0 +1,1079 @@
+codigo_faceta,nombre_faceta,edad_desde,edad_hasta,sexo,puntuación_directa_desde,puntuación_directa_hasta,percentil,nivel_faceta
+F1AM,Imaginación,1,99,H,0,7,1,MB
+F1AM,Imaginación,1,99,H,8,8,2,MB
+F1AM,Imaginación,1,99,H,9,9,4,MB
+F1AM,Imaginación,1,99,H,10,10,5,MB
+F1AM,Imaginación,1,99,H,11,11,10,MB
+F1AM,Imaginación,1,99,H,12,12,15,MB
+F1AM,Imaginación,1,99,H,13,13,20,MB
+F1AM,Imaginación,1,99,H,14,14,25,B
+F1AM,Imaginación,1,99,H,15,15,35,B
+F1AM,Imaginación,1,99,H,16,16,40,M
+F1AM,Imaginación,1,99,H,17,17,50,M
+F1AM,Imaginación,1,99,H,18,18,60,M
+F1AM,Imaginación,1,99,H,19,19,65,A
+F1AM,Imaginación,1,99,H,20,20,70,A
+F1AM,Imaginación,1,99,H,21,21,80,A
+F1AM,Imaginación,1,99,H,22,23,85,MA
+F1AM,Imaginación,1,99,H,24,24,90,MA
+F1AM,Imaginación,1,99,H,25,25,95,MA
+F1AM,Imaginación,1,99,H,26,27,97,MA
+F1AM,Imaginación,1,99,H,28,28,98,MA
+F1AM,Imaginación,1,99,H,29,32,99,MA
+F1AM,Imaginación,1,99,M,0,8,1,MB
+F1AM,Imaginación,1,99,M,9,9,2,MB
+F1AM,Imaginación,1,99,M,10,10,5,MB
+F1AM,Imaginación,1,99,M,11,11,10,MB
+F1AM,Imaginación,1,99,M,12,12,15,MB
+F1AM,Imaginación,1,99,M,13,13,20,MB
+F1AM,Imaginación,1,99,M,14,14,25,B
+F1AM,Imaginación,1,99,M,15,15,30,B
+F1AM,Imaginación,1,99,M,16,16,35,B
+F1AM,Imaginación,1,99,M,17,17,45,M
+F1AM,Imaginación,1,99,M,18,18,50,M
+F1AM,Imaginación,1,99,M,19,19,60,M
+F1AM,Imaginación,1,99,M,20,20,65,A
+F1AM,Imaginación,1,99,M,21,21,70,A
+F1AM,Imaginación,1,99,M,22,22,80,A
+F1AM,Imaginación,1,99,M,23,23,85,MA
+F1AM,Imaginación,1,99,M,24,24,90,MA
+F1AM,Imaginación,1,99,M,25,25,95,MA
+F1AM,Imaginación,1,99,M,26,26,97,MA
+F1AM,Imaginación,1,99,M,27,27,98,MA
+F1AM,Imaginación,1,99,M,28,32,99,MA
+F1C,Confianza en los demás,1,99,H,0,10,1,MB
+F1C,Confianza en los demás,1,99,H,11,12,2,MB
+F1C,Confianza en los demás,1,99,H,13,13,3,MB
+F1C,Confianza en los demás,1,99,H,14,15,5,MB
+F1C,Confianza en los demás,1,99,H,16,17,10,MB
+F1C,Confianza en los demás,1,99,H,18,18,15,MB
+F1C,Confianza en los demás,1,99,H,19,19,20,MB
+F1C,Confianza en los demás,1,99,H,20,20,25,B
+F1C,Confianza en los demás,1,99,H,21,21,30,B
+F1C,Confianza en los demás,1,99,H,22,22,40,M
+F1C,Confianza en los demás,1,99,H,23,23,50,M
+F1C,Confianza en los demás,1,99,H,24,24,60,M
+F1C,Confianza en los demás,1,99,H,25,25,75,A
+F1C,Confianza en los demás,1,99,H,26,26,85,MA
+F1C,Confianza en los demás,1,99,H,27,27,90,MA
+F1C,Confianza en los demás,1,99,H,28,28,95,MA
+F1C,Confianza en los demás,1,99,H,29,29,97,MA
+F1C,Confianza en los demás,1,99,H,30,30,98,MA
+F1C,Confianza en los demás,1,99,H,31,32,99,MA
+F1C,Confianza en los demás,1,99,M,0,12,1,MB
+F1C,Confianza en los demás,1,99,M,13,14,3,MB
+F1C,Confianza en los demás,1,99,M,15,16,5,MB
+F1C,Confianza en los demás,1,99,M,17,18,10,MB
+F1C,Confianza en los demás,1,99,M,19,19,15,MB
+F1C,Confianza en los demás,1,99,M,20,20,25,B
+F1C,Confianza en los demás,1,99,M,21,21,30,B
+F1C,Confianza en los demás,1,99,M,22,22,35,B
+F1C,Confianza en los demás,1,99,M,23,23,45,M
+F1C,Confianza en los demás,1,99,M,24,24,60,M
+F1C,Confianza en los demás,1,99,M,25,25,70,A
+F1C,Confianza en los demás,1,99,M,26,26,80,A
+F1C,Confianza en los demás,1,99,M,27,27,90,MA
+F1C,Confianza en los demás,1,99,M,28,28,95,MA
+F1C,Confianza en los demás,1,99,M,29,29,97,MA
+F1C,Confianza en los demás,1,99,M,30,30,98,MA
+F1C,Confianza en los demás,1,99,M,31,32,99,MA
+F1E,Capacidad de relación,1,99,H,0,11,1,MB
+F1E,Capacidad de relación,1,99,H,12,13,2,MB
+F1E,Capacidad de relación,1,99,H,14,14,3,MB
+F1E,Capacidad de relación,1,99,H,15,15,4,MB
+F1E,Capacidad de relación,1,99,H,16,16,5,MB
+F1E,Capacidad de relación,1,99,H,17,18,10,MB
+F1E,Capacidad de relación,1,99,H,19,19,15,MB
+F1E,Capacidad de relación,1,99,H,20,20,25,B
+F1E,Capacidad de relación,1,99,H,21,21,30,B
+F1E,Capacidad de relación,1,99,H,22,22,40,M
+F1E,Capacidad de relación,1,99,H,23,23,50,M
+F1E,Capacidad de relación,1,99,H,24,24,60,M
+F1E,Capacidad de relación,1,99,H,25,25,70,A
+F1E,Capacidad de relación,1,99,H,26,26,80,A
+F1E,Capacidad de relación,1,99,H,27,27,85,MA
+F1E,Capacidad de relación,1,99,H,28,28,90,MA
+F1E,Capacidad de relación,1,99,H,29,29,95,MA
+F1E,Capacidad de relación,1,99,H,30,30,97,MA
+F1E,Capacidad de relación,1,99,H,31,32,99,MA
+F1E,Capacidad de relación,1,99,M,0,15,1,MB
+F1E,Capacidad de relación,1,99,M,16,16,2,MB
+F1E,Capacidad de relación,1,99,M,17,17,3,MB
+F1E,Capacidad de relación,1,99,M,18,18,5,MB
+F1E,Capacidad de relación,1,99,M,19,20,10,MB
+F1E,Capacidad de relación,1,99,M,21,21,15,MB
+F1E,Capacidad de relación,1,99,M,22,22,25,B
+F1E,Capacidad de relación,1,99,M,23,23,35,B
+F1E,Capacidad de relación,1,99,M,24,24,50,M
+F1E,Capacidad de relación,1,99,M,25,25,60,M
+F1E,Capacidad de relación,1,99,M,26,26,70,A
+F1E,Capacidad de relación,1,99,M,27,27,80,A
+F1E,Capacidad de relación,1,99,M,28,28,85,MA
+F1E,Capacidad de relación,1,99,M,29,29,90,MA
+F1E,Capacidad de relación,1,99,M,30,30,95,MA
+F1E,Capacidad de relación,1,99,M,31,32,99,MA
+F1RE,Preocupaciones - Miedos,1,99,H,0,5,1,MB
+F1RE,Preocupaciones - Miedos,1,99,H,6,6,2,MB
+F1RE,Preocupaciones - Miedos,1,99,H,7,7,3,MB
+F1RE,Preocupaciones - Miedos,1,99,H,8,8,4,MB
+F1RE,Preocupaciones - Miedos,1,99,H,9,9,5,MB
+F1RE,Preocupaciones - Miedos,1,99,H,10,10,10,MB
+F1RE,Preocupaciones - Miedos,1,99,H,11,11,15,MB
+F1RE,Preocupaciones - Miedos,1,99,H,12,12,25,B
+F1RE,Preocupaciones - Miedos,1,99,H,13,13,30,B
+F1RE,Preocupaciones - Miedos,1,99,H,14,14,40,M
+F1RE,Preocupaciones - Miedos,1,99,H,15,15,50,M
+F1RE,Preocupaciones - Miedos,1,99,H,16,16,60,M
+F1RE,Preocupaciones - Miedos,1,99,H,17,17,70,A
+F1RE,Preocupaciones - Miedos,1,99,H,18,18,80,A
+F1RE,Preocupaciones - Miedos,1,99,H,19,19,85,MA
+F1RE,Preocupaciones - Miedos,1,99,H,20,20,90,MA
+F1RE,Preocupaciones - Miedos,1,99,H,21,22,95,MA
+F1RE,Preocupaciones - Miedos,1,99,H,23,24,97,MA
+F1RE,Preocupaciones - Miedos,1,99,H,25,25,98,MA
+F1RE,Preocupaciones - Miedos,1,99,H,26,32,99,MA
+F1RE,Preocupaciones - Miedos,1,99,M,0,7,1,MB
+F1RE,Preocupaciones - Miedos,1,99,M,8,8,2,MB
+F1RE,Preocupaciones - Miedos,1,99,M,9,9,3,MB
+F1RE,Preocupaciones - Miedos,1,99,M,10,10,5,MB
+F1RE,Preocupaciones - Miedos,1,99,M,11,12,10,MB
+F1RE,Preocupaciones - Miedos,1,99,M,13,13,20,MB
+F1RE,Preocupaciones - Miedos,1,99,M,14,14,25,B
+F1RE,Preocupaciones - Miedos,1,99,M,15,15,35,B
+F1RE,Preocupaciones - Miedos,1,99,M,16,16,45,M
+F1RE,Preocupaciones - Miedos,1,99,M,17,17,55,M
+F1RE,Preocupaciones - Miedos,1,99,M,18,18,65,A
+F1RE,Preocupaciones - Miedos,1,99,M,19,19,75,A
+F1RE,Preocupaciones - Miedos,1,99,M,20,20,80,A
+F1RE,Preocupaciones - Miedos,1,99,M,21,21,85,MA
+F1RE,Preocupaciones - Miedos,1,99,M,22,22,90,MA
+F1RE,Preocupaciones - Miedos,1,99,M,23,24,95,MA
+F1RE,Preocupaciones - Miedos,1,99,M,25,25,97,MA
+F1RE,Preocupaciones - Miedos,1,99,M,26,32,99,MA
+F1R,Capacidad,1,99,H,0,14,1,MB
+F1R,Capacidad,1,99,H,15,16,3,MB
+F1R,Capacidad,1,99,H,17,18,5,MB
+F1R,Capacidad,1,99,H,19,19,10,MB
+F1R,Capacidad,1,99,H,20,20,15,MB
+F1R,Capacidad,1,99,H,21,21,25,B
+F1R,Capacidad,1,99,H,22,22,30,B
+F1R,Capacidad,1,99,H,23,23,45,M
+F1R,Capacidad,1,99,H,24,24,55,M
+F1R,Capacidad,1,99,H,25,25,65,A
+F1R,Capacidad,1,99,H,26,26,75,A
+F1R,Capacidad,1,99,H,27,27,85,MA
+F1R,Capacidad,1,99,H,28,28,90,MA
+F1R,Capacidad,1,99,H,29,29,95,MA
+F1R,Capacidad,1,99,H,30,30,97,MA
+F1R,Capacidad,1,99,H,31,32,99,MA
+F1R,Capacidad,1,99,M,0,14,1,MB
+F1R,Capacidad,1,99,M,15,16,3,MB
+F1R,Capacidad,1,99,M,17,18,5,MB
+F1R,Capacidad,1,99,M,19,19,10,MB
+F1R,Capacidad,1,99,M,20,20,15,MB
+F1R,Capacidad,1,99,M,21,21,25,B
+F1R,Capacidad,1,99,M,22,22,30,B
+F1R,Capacidad,1,99,M,23,23,45,M
+F1R,Capacidad,1,99,M,24,24,55,M
+F1R,Capacidad,1,99,M,25,25,65,A
+F1R,Capacidad,1,99,M,26,26,75,A
+F1R,Capacidad,1,99,M,27,27,85,MA
+F1R,Capacidad,1,99,M,28,28,90,MA
+F1R,Capacidad,1,99,M,29,29,95,MA
+F1R,Capacidad,1,99,M,30,30,97,MA
+F1R,Capacidad,1,99,M,31,32,99,MA
+F2AM,Apertura a la cultura,1,99,H,0,7,1,MB
+F2AM,Apertura a la cultura,1,99,H,8,8,2,MB
+F2AM,Apertura a la cultura,1,99,H,9,9,3,MB
+F2AM,Apertura a la cultura,1,99,H,10,10,4,MB
+F2AM,Apertura a la cultura,1,99,H,11,12,5,MB
+F2AM,Apertura a la cultura,1,99,H,13,13,10,MB
+F2AM,Apertura a la cultura,1,99,H,14,15,15,MB
+F2AM,Apertura a la cultura,1,99,H,16,16,25,B
+F2AM,Apertura a la cultura,1,99,H,17,17,30,B
+F2AM,Apertura a la cultura,1,99,H,18,18,35,B
+F2AM,Apertura a la cultura,1,99,H,19,19,45,M
+F2AM,Apertura a la cultura,1,99,H,20,20,50,M
+F2AM,Apertura a la cultura,1,99,H,21,21,60,M
+F2AM,Apertura a la cultura,1,99,H,22,22,70,A
+F2AM,Apertura a la cultura,1,99,H,23,23,75,A
+F2AM,Apertura a la cultura,1,99,H,24,24,80,A
+F2AM,Apertura a la cultura,1,99,H,25,25,85,MA
+F2AM,Apertura a la cultura,1,99,H,26,26,90,MA
+F2AM,Apertura a la cultura,1,99,H,27,27,95,MA
+F2AM,Apertura a la cultura,1,99,H,28,28,96,MA
+F2AM,Apertura a la cultura,1,99,H,29,29,98,MA
+F2AM,Apertura a la cultura,1,99,H,30,32,99,MA
+F2AM,Apertura a la cultura,1,99,M,0,9,1,MB
+F2AM,Apertura a la cultura,1,99,M,10,11,2,MB
+F2AM,Apertura a la cultura,1,99,M,12,12,3,MB
+F2AM,Apertura a la cultura,1,99,M,13,14,5,MB
+F2AM,Apertura a la cultura,1,99,M,15,15,10,MB
+F2AM,Apertura a la cultura,1,99,M,16,16,15,MB
+F2AM,Apertura a la cultura,1,99,M,17,17,20,MB
+F2AM,Apertura a la cultura,1,99,M,18,18,25,B
+F2AM,Apertura a la cultura,1,99,M,19,19,30,B
+F2AM,Apertura a la cultura,1,99,M,20,20,40,M
+F2AM,Apertura a la cultura,1,99,M,21,21,50,M
+F2AM,Apertura a la cultura,1,99,M,22,22,60,M
+F2AM,Apertura a la cultura,1,99,M,23,23,70,A
+F2AM,Apertura a la cultura,1,99,M,24,24,75,A
+F2AM,Apertura a la cultura,1,99,M,25,25,85,MA
+F2AM,Apertura a la cultura,1,99,M,26,27,90,MA
+F2AM,Apertura a la cultura,1,99,M,28,28,95,MA
+F2AM,Apertura a la cultura,1,99,M,29,29,97,MA
+F2AM,Apertura a la cultura,1,99,M,30,32,99,MA
+F2C,Honestidad,1,99,H,0,8,1,MB
+F2C,Honestidad,1,99,H,9,11,3,MB
+F2C,Honestidad,1,99,H,12,13,5,MB
+F2C,Honestidad,1,99,H,14,14,10,MB
+F2C,Honestidad,1,99,H,15,16,15,MB
+F2C,Honestidad,1,99,H,17,17,25,B
+F2C,Honestidad,1,99,H,18,18,30,B
+F2C,Honestidad,1,99,H,19,19,35,B
+F2C,Honestidad,1,99,H,20,20,45,M
+F2C,Honestidad,1,99,H,21,21,55,M
+F2C,Honestidad,1,99,H,22,22,65,A
+F2C,Honestidad,1,99,H,23,23,75,A
+F2C,Honestidad,1,99,H,24,24,80,A
+F2C,Honestidad,1,99,H,25,26,90,MA
+F2C,Honestidad,1,99,H,27,27,95,MA
+F2C,Honestidad,1,99,H,28,28,97,MA
+F2C,Honestidad,1,99,H,29,32,99,MA
+F2C,Honestidad,1,99,M,0,10,1,MB
+F2C,Honestidad,1,99,M,11,12,3,MB
+F2C,Honestidad,1,99,M,13,14,5,MB
+F2C,Honestidad,1,99,M,15,16,10,MB
+F2C,Honestidad,1,99,M,17,17,15,MB
+F2C,Honestidad,1,99,M,18,18,25,B
+F2C,Honestidad,1,99,M,19,19,30,B
+F2C,Honestidad,1,99,M,20,20,40,M
+F2C,Honestidad,1,99,M,21,21,50,M
+F2C,Honestidad,1,99,M,22,22,60,M
+F2C,Honestidad,1,99,M,23,23,70,A
+F2C,Honestidad,1,99,M,24,24,80,A
+F2C,Honestidad,1,99,M,25,25,85,MA
+F2C,Honestidad,1,99,M,26,26,90,MA
+F2C,Honestidad,1,99,M,27,27,95,MA
+F2C,Honestidad,1,99,M,28,28,97,MA
+F2C,Honestidad,1,99,M,29,29,98,MA
+F2C,Honestidad,1,99,M,30,32,99,MA
+F2E,Sociabilidad,1,99,H,0,7,1,MB
+F2E,Sociabilidad,1,99,H,8,8,2,MB
+F2E,Sociabilidad,1,99,H,9,9,3,MB
+F2E,Sociabilidad,1,99,H,10,11,5,MB
+F2E,Sociabilidad,1,99,H,12,13,10,MB
+F2E,Sociabilidad,1,99,H,14,14,15,MB
+F2E,Sociabilidad,1,99,H,15,15,20,MB
+F2E,Sociabilidad,1,99,H,16,16,25,B
+F2E,Sociabilidad,1,99,H,17,17,30,B
+F2E,Sociabilidad,1,99,H,18,18,40,M
+F2E,Sociabilidad,1,99,H,19,19,45,M
+F2E,Sociabilidad,1,99,H,20,20,55,M
+F2E,Sociabilidad,1,99,H,21,21,60,M
+F2E,Sociabilidad,1,99,H,22,22,70,A
+F2E,Sociabilidad,1,99,H,23,23,75,A
+F2E,Sociabilidad,1,99,H,24,24,80,A
+F2E,Sociabilidad,1,99,H,25,25,85,MA
+F2E,Sociabilidad,1,99,H,26,26,90,MA
+F2E,Sociabilidad,1,99,H,27,27,95,MA
+F2E,Sociabilidad,1,99,H,28,28,97,MA
+F2E,Sociabilidad,1,99,H,29,32,99,MA
+F2E,Sociabilidad,1,99,M,0,11,1,MB
+F2E,Sociabilidad,1,99,M,12,12,2,MB
+F2E,Sociabilidad,1,99,M,13,13,4,MB
+F2E,Sociabilidad,1,99,M,14,14,5,MB
+F2E,Sociabilidad,1,99,M,15,15,10,MB
+F2E,Sociabilidad,1,99,M,16,16,15,MB
+F2E,Sociabilidad,1,99,M,17,17,20,MB
+F2E,Sociabilidad,1,99,M,18,18,25,B
+F2E,Sociabilidad,1,99,M,19,19,30,B
+F2E,Sociabilidad,1,99,M,20,20,40,M
+F2E,Sociabilidad,1,99,M,21,21,45,M
+F2E,Sociabilidad,1,99,M,22,22,55,M
+F2E,Sociabilidad,1,99,M,23,23,65,A
+F2E,Sociabilidad,1,99,M,24,24,75,A
+F2E,Sociabilidad,1,99,M,25,25,85,MA
+F2E,Sociabilidad,1,99,M,26,26,90,MA
+F2E,Sociabilidad,1,99,M,27,28,95,MA
+F2E,Sociabilidad,1,99,M,29,29,97,MA
+F2E,Sociabilidad,1,99,M,30,32,99,MA
+F2RE,Irritabilidad,1,99,H,0,0,1,MB
+F2RE,Irritabilidad,1,99,H,1,1,2,MB
+F2RE,Irritabilidad,1,99,H,2,2,4,MB
+F2RE,Irritabilidad,1,99,H,3,3,5,MB
+F2RE,Irritabilidad,1,99,H,4,4,10,MB
+F2RE,Irritabilidad,1,99,H,5,5,20,MB
+F2RE,Irritabilidad,1,99,H,6,6,25,B
+F2RE,Irritabilidad,1,99,H,7,7,35,B
+F2RE,Irritabilidad,1,99,H,8,8,45,M
+F2RE,Irritabilidad,1,99,H,9,9,55,M
+F2RE,Irritabilidad,1,99,H,10,10,70,A
+F2RE,Irritabilidad,1,99,H,11,11,75,A
+F2RE,Irritabilidad,1,99,H,12,12,85,MA
+F2RE,Irritabilidad,1,99,H,13,14,90,MA
+F2RE,Irritabilidad,1,99,H,15,15,95,MA
+F2RE,Irritabilidad,1,99,H,16,16,96,MA
+F2RE,Irritabilidad,1,99,H,17,17,97,MA
+F2RE,Irritabilidad,1,99,H,18,19,98,MA
+F2RE,Irritabilidad,1,99,H,20,32,99,MA
+F2RE,Irritabilidad,1,99,M,0,1,1,MB
+F2RE,Irritabilidad,1,99,M,2,2,3,MB
+F2RE,Irritabilidad,1,99,M,3,3,5,MB
+F2RE,Irritabilidad,1,99,M,4,4,10,MB
+F2RE,Irritabilidad,1,99,M,5,5,15,MB
+F2RE,Irritabilidad,1,99,M,6,6,20,MB
+F2RE,Irritabilidad,1,99,M,7,7,30,B
+F2RE,Irritabilidad,1,99,M,8,8,45,M
+F2RE,Irritabilidad,1,99,M,9,9,55,M
+F2RE,Irritabilidad,1,99,M,10,10,65,A
+F2RE,Irritabilidad,1,99,M,11,11,75,A
+F2RE,Irritabilidad,1,99,M,12,12,80,A
+F2RE,Irritabilidad,1,99,M,13,14,90,MA
+F2RE,Irritabilidad,1,99,M,15,15,95,MA
+F2RE,Irritabilidad,1,99,M,16,16,97,MA
+F2RE,Irritabilidad,1,99,M,17,18,98,MA
+F2RE,Irritabilidad,1,99,M,19,32,99,MA
+F2R,Minuciosidad,1,99,H,0,9,1,MB
+F2R,Minuciosidad,1,99,H,10,12,3,MB
+F2R,Minuciosidad,1,99,H,13,14,5,MB
+F2R,Minuciosidad,1,99,H,15,15,10,MB
+F2R,Minuciosidad,1,99,H,16,16,15,MB
+F2R,Minuciosidad,1,99,H,17,17,20,MB
+F2R,Minuciosidad,1,99,H,18,18,25,B
+F2R,Minuciosidad,1,99,H,19,19,35,B
+F2R,Minuciosidad,1,99,H,20,20,45,M
+F2R,Minuciosidad,1,99,H,21,21,55,M
+F2R,Minuciosidad,1,99,H,22,22,65,A
+F2R,Minuciosidad,1,99,H,23,23,70,A
+F2R,Minuciosidad,1,99,H,24,24,80,A
+F2R,Minuciosidad,1,99,H,25,25,85,MA
+F2R,Minuciosidad,1,99,H,26,26,90,MA
+F2R,Minuciosidad,1,99,H,27,27,95,MA
+F2R,Minuciosidad,1,99,H,28,28,97,MA
+F2R,Minuciosidad,1,99,H,29,32,99,MA
+F2R,Minuciosidad,1,99,M,0,11,1,MB
+F2R,Minuciosidad,1,99,M,12,13,3,MB
+F2R,Minuciosidad,1,99,M,14,14,5,MB
+F2R,Minuciosidad,1,99,M,15,16,10,MB
+F2R,Minuciosidad,1,99,M,17,17,15,MB
+F2R,Minuciosidad,1,99,M,18,18,25,B
+F2R,Minuciosidad,1,99,M,19,19,30,B
+F2R,Minuciosidad,1,99,M,20,20,40,M
+F2R,Minuciosidad,1,99,M,21,21,50,M
+F2R,Minuciosidad,1,99,M,22,22,60,M
+F2R,Minuciosidad,1,99,M,23,23,70,A
+F2R,Minuciosidad,1,99,M,24,24,80,A
+F2R,Minuciosidad,1,99,M,25,25,85,MA
+F2R,Minuciosidad,1,99,M,26,26,90,MA
+F2R,Minuciosidad,1,99,M,27,27,95,MA
+F2R,Minuciosidad,1,99,M,28,28,97,MA
+F2R,Minuciosidad,1,99,M,29,32,99,MA
+F3AM,Apertura emocional,1,99,H,0,12,1,MB
+F3AM,Apertura emocional,1,99,H,13,13,2,MB
+F3AM,Apertura emocional,1,99,H,14,14,5,MB
+F3AM,Apertura emocional,1,99,H,15,15,10,MB
+F3AM,Apertura emocional,1,99,H,16,16,15,MB
+F3AM,Apertura emocional,1,99,H,17,17,20,MB
+F3AM,Apertura emocional,1,99,H,18,18,30,B
+F3AM,Apertura emocional,1,99,H,19,19,40,M
+F3AM,Apertura emocional,1,99,H,20,20,50,M
+F3AM,Apertura emocional,1,99,H,21,21,65,A
+F3AM,Apertura emocional,1,99,H,22,22,75,A
+F3AM,Apertura emocional,1,99,H,23,23,85,MA
+F3AM,Apertura emocional,1,99,H,24,24,90,MA
+F3AM,Apertura emocional,1,99,H,25,26,95,MA
+F3AM,Apertura emocional,1,99,H,27,27,97,MA
+F3AM,Apertura emocional,1,99,H,28,28,98,MA
+F3AM,Apertura emocional,1,99,H,29,32,99,MA
+F3AM,Apertura emocional,1,99,M,0,13,1,MB
+F3AM,Apertura emocional,1,99,M,14,14,3,MB
+F3AM,Apertura emocional,1,99,M,15,15,5,MB
+F3AM,Apertura emocional,1,99,M,16,16,10,MB
+F3AM,Apertura emocional,1,99,M,17,17,15,MB
+F3AM,Apertura emocional,1,99,M,18,18,20,MB
+F3AM,Apertura emocional,1,99,M,19,19,30,B
+F3AM,Apertura emocional,1,99,M,20,20,40,M
+F3AM,Apertura emocional,1,99,M,21,21,50,M
+F3AM,Apertura emocional,1,99,M,22,22,65,A
+F3AM,Apertura emocional,1,99,M,23,23,75,A
+F3AM,Apertura emocional,1,99,M,24,24,80,A
+F3AM,Apertura emocional,1,99,M,25,25,90,MA
+F3AM,Apertura emocional,1,99,M,26,26,95,MA
+F3AM,Apertura emocional,1,99,M,27,27,97,MA
+F3AM,Apertura emocional,1,99,M,28,28,98,MA
+F3AM,Apertura emocional,1,99,M,29,32,99,MA
+F3C,Generosidad,1,99,H,0,15,1,MB
+F3C,Generosidad,1,99,H,16,17,3,MB
+F3C,Generosidad,1,99,H,18,18,5,MB
+F3C,Generosidad,1,99,H,19,19,10,MB
+F3C,Generosidad,1,99,H,20,20,15,MB
+F3C,Generosidad,1,99,H,21,21,25,B
+F3C,Generosidad,1,99,H,22,22,35,B
+F3C,Generosidad,1,99,H,23,23,45,M
+F3C,Generosidad,1,99,H,24,24,55,M
+F3C,Generosidad,1,99,H,25,25,65,A
+F3C,Generosidad,1,99,H,26,26,75,A
+F3C,Generosidad,1,99,H,27,27,85,MA
+F3C,Generosidad,1,99,H,28,28,90,MA
+F3C,Generosidad,1,99,H,29,29,95,MA
+F3C,Generosidad,1,99,H,30,30,97,MA
+F3C,Generosidad,1,99,H,31,31,98,MA
+F3C,Generosidad,1,99,H,32,32,99,MA
+F3C,Generosidad,1,99,M,0,16,1,MB
+F3C,Generosidad,1,99,M,17,18,3,MB
+F3C,Generosidad,1,99,M,19,19,5,MB
+F3C,Generosidad,1,99,M,20,20,10,MB
+F3C,Generosidad,1,99,M,21,21,15,MB
+F3C,Generosidad,1,99,M,22,22,25,B
+F3C,Generosidad,1,99,M,23,23,30,B
+F3C,Generosidad,1,99,M,24,24,40,M
+F3C,Generosidad,1,99,M,25,25,55,M
+F3C,Generosidad,1,99,M,26,26,65,A
+F3C,Generosidad,1,99,M,27,27,75,A
+F3C,Generosidad,1,99,M,28,28,85,MA
+F3C,Generosidad,1,99,M,29,29,90,MA
+F3C,Generosidad,1,99,M,30,30,97,MA
+F3C,Generosidad,1,99,M,31,32,99,MA
+F3E,Dominancia,1,99,H,0,9,1,MB
+F3E,Dominancia,1,99,H,10,10,3,MB
+F3E,Dominancia,1,99,H,11,11,5,MB
+F3E,Dominancia,1,99,H,12,12,10,MB
+F3E,Dominancia,1,99,H,13,14,15,MB
+F3E,Dominancia,1,99,H,15,15,25,B
+F3E,Dominancia,1,99,H,16,16,30,B
+F3E,Dominancia,1,99,H,17,17,35,B
+F3E,Dominancia,1,99,H,18,18,45,M
+F3E,Dominancia,1,99,H,19,19,55,M
+F3E,Dominancia,1,99,H,20,20,65,A
+F3E,Dominancia,1,99,H,21,21,70,A
+F3E,Dominancia,1,99,H,22,22,80,A
+F3E,Dominancia,1,99,H,23,23,85,MA
+F3E,Dominancia,1,99,H,24,24,90,MA
+F3E,Dominancia,1,99,H,25,26,95,MA
+F3E,Dominancia,1,99,H,27,27,97,MA
+F3E,Dominancia,1,99,H,28,28,98,MA
+F3E,Dominancia,1,99,H,29,32,99,MA
+F3E,Dominancia,1,99,M,0,8,1,MB
+F3E,Dominancia,1,99,M,9,9,3,MB
+F3E,Dominancia,1,99,M,10,10,4,MB
+F3E,Dominancia,1,99,M,11,11,5,MB
+F3E,Dominancia,1,99,M,12,12,10,MB
+F3E,Dominancia,1,99,M,13,13,20,MB
+F3E,Dominancia,1,99,M,14,14,25,B
+F3E,Dominancia,1,99,M,15,15,35,B
+F3E,Dominancia,1,99,M,16,16,40,M
+F3E,Dominancia,1,99,M,17,17,50,M
+F3E,Dominancia,1,99,M,18,18,60,M
+F3E,Dominancia,1,99,M,19,19,70,A
+F3E,Dominancia,1,99,M,20,20,75,A
+F3E,Dominancia,1,99,M,21,22,85,MA
+F3E,Dominancia,1,99,M,23,23,90,MA
+F3E,Dominancia,1,99,M,24,24,95,MA
+F3E,Dominancia,1,99,M,25,25,97,MA
+F3E,Dominancia,1,99,M,26,26,98,MA
+F3E,Dominancia,1,99,M,27,32,99,MA
+F3RE,Tristeza,1,99,H,0,0,1,MB
+F3RE,Tristeza,1,99,H,1,1,2,MB
+F3RE,Tristeza,1,99,H,2,2,4,MB
+F3RE,Tristeza,1,99,H,3,3,5,MB
+F3RE,Tristeza,1,99,H,4,4,10,MB
+F3RE,Tristeza,1,99,H,5,5,15,MB
+F3RE,Tristeza,1,99,H,6,6,20,MB
+F3RE,Tristeza,1,99,H,7,7,30,B
+F3RE,Tristeza,1,99,H,8,8,40,M
+F3RE,Tristeza,1,99,H,9,9,50,M
+F3RE,Tristeza,1,99,H,10,10,60,M
+F3RE,Tristeza,1,99,H,11,11,65,A
+F3RE,Tristeza,1,99,H,12,12,75,A
+F3RE,Tristeza,1,99,H,13,13,80,A
+F3RE,Tristeza,1,99,H,14,14,85,MA
+F3RE,Tristeza,1,99,H,15,16,90,MA
+F3RE,Tristeza,1,99,H,17,18,95,MA
+F3RE,Tristeza,1,99,H,19,19,96,MA
+F3RE,Tristeza,1,99,H,20,20,97,MA
+F3RE,Tristeza,1,99,H,21,21,98,MA
+F3RE,Tristeza,1,99,H,22,32,99,MA
+F3RE,Tristeza,1,99,M,0,1,1,MB
+F3RE,Tristeza,1,99,M,2,2,2,MB
+F3RE,Tristeza,1,99,M,3,3,4,MB
+F3RE,Tristeza,1,99,M,4,4,5,MB
+F3RE,Tristeza,1,99,M,5,5,10,MB
+F3RE,Tristeza,1,99,M,6,6,15,MB
+F3RE,Tristeza,1,99,M,7,7,20,MB
+F3RE,Tristeza,1,99,M,8,8,30,B
+F3RE,Tristeza,1,99,M,9,9,45,M
+F3RE,Tristeza,1,99,M,10,10,50,M
+F3RE,Tristeza,1,99,M,11,11,60,M
+F3RE,Tristeza,1,99,M,12,12,70,A
+F3RE,Tristeza,1,99,M,13,13,75,A
+F3RE,Tristeza,1,99,M,14,14,80,A
+F3RE,Tristeza,1,99,M,15,16,85,MA
+F3RE,Tristeza,1,99,M,17,17,90,MA
+F3RE,Tristeza,1,99,M,18,20,95,MA
+F3RE,Tristeza,1,99,M,21,21,96,MA
+F3RE,Tristeza,1,99,M,22,22,97,MA
+F3RE,Tristeza,1,99,M,23,24,98,MA
+F3RE,Tristeza,1,99,M,25,32,99,MA
+F3R,Compromiso personal,1,99,H,0,15,1,MB
+F3R,Compromiso personal,1,99,H,16,17,3,MB
+F3R,Compromiso personal,1,99,H,18,19,5,MB
+F3R,Compromiso personal,1,99,H,20,21,10,MB
+F3R,Compromiso personal,1,99,H,22,22,20,MB
+F3R,Compromiso personal,1,99,H,23,23,25,B
+F3R,Compromiso personal,1,99,H,24,24,35,B
+F3R,Compromiso personal,1,99,H,25,25,45,M
+F3R,Compromiso personal,1,99,H,26,26,60,M
+F3R,Compromiso personal,1,99,H,27,27,70,A
+F3R,Compromiso personal,1,99,H,28,28,75,A
+F3R,Compromiso personal,1,99,H,29,29,85,MA
+F3R,Compromiso personal,1,99,H,30,30,90,MA
+F3R,Compromiso personal,1,99,H,31,31,95,MA
+F3R,Compromiso personal,1,99,H,32,32,99,MA
+F3R,Compromiso personal,1,99,M,0,17,1,MB
+F3R,Compromiso personal,1,99,M,18,18,3,MB
+F3R,Compromiso personal,1,99,M,19,20,5,MB
+F3R,Compromiso personal,1,99,M,21,21,10,MB
+F3R,Compromiso personal,1,99,M,22,22,15,MB
+F3R,Compromiso personal,1,99,M,23,23,25,B
+F3R,Compromiso personal,1,99,M,24,24,35,B
+F3R,Compromiso personal,1,99,M,25,25,40,M
+F3R,Compromiso personal,1,99,M,26,26,55,M
+F3R,Compromiso personal,1,99,M,27,27,65,A
+F3R,Compromiso personal,1,99,M,28,28,75,A
+F3R,Compromiso personal,1,99,M,29,29,85,MA
+F3R,Compromiso personal,1,99,M,30,30,90,MA
+F3R,Compromiso personal,1,99,M,31,31,97,MA
+F3R,Compromiso personal,1,99,M,32,32,99,MA
+F4AM,Apertura a la experiencia,1,99,H,0,8,1,MB
+F4AM,Apertura a la experiencia,1,99,H,9,9,2,MB
+F4AM,Apertura a la experiencia,1,99,H,10,10,4,MB
+F4AM,Apertura a la experiencia,1,99,H,11,11,5,MB
+F4AM,Apertura a la experiencia,1,99,H,12,12,10,MB
+F4AM,Apertura a la experiencia,1,99,H,13,13,15,MB
+F4AM,Apertura a la experiencia,1,99,H,14,14,25,B
+F4AM,Apertura a la experiencia,1,99,H,15,15,30,B
+F4AM,Apertura a la experiencia,1,99,H,16,16,40,M
+F4AM,Apertura a la experiencia,1,99,H,17,17,50,M
+F4AM,Apertura a la experiencia,1,99,H,18,18,60,M
+F4AM,Apertura a la experiencia,1,99,H,19,19,70,A
+F4AM,Apertura a la experiencia,1,99,H,20,20,80,A
+F4AM,Apertura a la experiencia,1,99,H,21,21,85,MA
+F4AM,Apertura a la experiencia,1,99,H,22,22,90,MA
+F4AM,Apertura a la experiencia,1,99,H,23,23,95,MA
+F4AM,Apertura a la experiencia,1,99,H,24,24,96,MA
+F4AM,Apertura a la experiencia,1,99,H,25,25,98,MA
+F4AM,Apertura a la experiencia,1,99,H,26,32,99,MA
+F4AM,Apertura a la experiencia,1,99,M,0,9,1,MB
+F4AM,Apertura a la experiencia,1,99,M,10,10,2,MB
+F4AM,Apertura a la experiencia,1,99,M,11,11,3,MB
+F4AM,Apertura a la experiencia,1,99,M,12,12,5,MB
+F4AM,Apertura a la experiencia,1,99,M,13,13,10,MB
+F4AM,Apertura a la experiencia,1,99,M,14,14,15,MB
+F4AM,Apertura a la experiencia,1,99,M,15,15,25,B
+F4AM,Apertura a la experiencia,1,99,M,16,16,30,B
+F4AM,Apertura a la experiencia,1,99,M,17,17,40,M
+F4AM,Apertura a la experiencia,1,99,M,18,18,50,M
+F4AM,Apertura a la experiencia,1,99,M,19,19,60,M
+F4AM,Apertura a la experiencia,1,99,M,20,20,70,A
+F4AM,Apertura a la experiencia,1,99,M,21,21,80,A
+F4AM,Apertura a la experiencia,1,99,M,22,22,85,MA
+F4AM,Apertura a la experiencia,1,99,M,23,23,90,MA
+F4AM,Apertura a la experiencia,1,99,M,24,24,95,MA
+F4AM,Apertura a la experiencia,1,99,M,25,25,98,MA
+F4AM,Apertura a la experiencia,1,99,M,26,32,99,MA
+F4C,Actitud pacificadora,1,99,H,0,9,1,MB
+F4C,Actitud pacificadora,1,99,H,10,12,3,MB
+F4C,Actitud pacificadora,1,99,H,13,14,5,MB
+F4C,Actitud pacificadora,1,99,H,15,15,10,MB
+F4C,Actitud pacificadora,1,99,H,16,16,15,MB
+F4C,Actitud pacificadora,1,99,H,17,17,25,B
+F4C,Actitud pacificadora,1,99,H,18,18,30,B
+F4C,Actitud pacificadora,1,99,H,19,19,40,M
+F4C,Actitud pacificadora,1,99,H,20,20,45,M
+F4C,Actitud pacificadora,1,99,H,21,21,55,M
+F4C,Actitud pacificadora,1,99,H,22,22,65,A
+F4C,Actitud pacificadora,1,99,H,23,23,75,A
+F4C,Actitud pacificadora,1,99,H,24,24,85,MA
+F4C,Actitud pacificadora,1,99,H,25,25,90,MA
+F4C,Actitud pacificadora,1,99,H,26,26,95,MA
+F4C,Actitud pacificadora,1,99,H,27,28,97,MA
+F4C,Actitud pacificadora,1,99,H,29,32,99,MA
+F4C,Actitud pacificadora,1,99,M,0,11,1,MB
+F4C,Actitud pacificadora,1,99,M,12,13,3,MB
+F4C,Actitud pacificadora,1,99,M,14,14,5,MB
+F4C,Actitud pacificadora,1,99,M,15,16,10,MB
+F4C,Actitud pacificadora,1,99,M,17,17,15,MB
+F4C,Actitud pacificadora,1,99,M,18,18,25,B
+F4C,Actitud pacificadora,1,99,M,19,19,30,B
+F4C,Actitud pacificadora,1,99,M,20,20,40,M
+F4C,Actitud pacificadora,1,99,M,21,21,50,M
+F4C,Actitud pacificadora,1,99,M,22,22,60,M
+F4C,Actitud pacificadora,1,99,M,23,23,70,A
+F4C,Actitud pacificadora,1,99,M,24,24,80,A
+F4C,Actitud pacificadora,1,99,M,25,25,85,MA
+F4C,Actitud pacificadora,1,99,M,26,26,90,MA
+F4C,Actitud pacificadora,1,99,M,27,27,95,MA
+F4C,Actitud pacificadora,1,99,M,28,28,98,MA
+F4C,Actitud pacificadora,1,99,M,29,32,99,MA
+F4E,Dinamismo,1,99,H,0,9,1,MB
+F4E,Dinamismo,1,99,H,10,11,2,MB
+F4E,Dinamismo,1,99,H,12,12,4,MB
+F4E,Dinamismo,1,99,H,13,13,5,MB
+F4E,Dinamismo,1,99,H,14,14,10,MB
+F4E,Dinamismo,1,99,H,15,15,15,MB
+F4E,Dinamismo,1,99,H,16,16,25,B
+F4E,Dinamismo,1,99,H,17,17,30,B
+F4E,Dinamismo,1,99,H,18,18,40,M
+F4E,Dinamismo,1,99,H,19,19,50,M
+F4E,Dinamismo,1,99,H,20,20,65,A
+F4E,Dinamismo,1,99,H,21,21,70,A
+F4E,Dinamismo,1,99,H,22,22,80,A
+F4E,Dinamismo,1,99,H,23,23,85,MA
+F4E,Dinamismo,1,99,H,24,24,90,MA
+F4E,Dinamismo,1,99,H,25,25,95,MA
+F4E,Dinamismo,1,99,H,26,26,97,MA
+F4E,Dinamismo,1,99,H,27,32,99,MA
+F4E,Dinamismo,1,99,M,0,11,1,MB
+F4E,Dinamismo,1,99,M,12,12,2,MB
+F4E,Dinamismo,1,99,M,13,13,4,MB
+F4E,Dinamismo,1,99,M,14,14,5,MB
+F4E,Dinamismo,1,99,M,15,15,10,MB
+F4E,Dinamismo,1,99,M,16,16,20,MB
+F4E,Dinamismo,1,99,M,17,17,25,B
+F4E,Dinamismo,1,99,M,18,18,35,B
+F4E,Dinamismo,1,99,M,19,19,45,M
+F4E,Dinamismo,1,99,M,20,20,55,M
+F4E,Dinamismo,1,99,M,21,21,65,A
+F4E,Dinamismo,1,99,M,22,22,75,A
+F4E,Dinamismo,1,99,M,23,23,80,A
+F4E,Dinamismo,1,99,M,24,25,90,MA
+F4E,Dinamismo,1,99,M,26,26,96,MA
+F4E,Dinamismo,1,99,M,27,27,98,MA
+F4E,Dinamismo,1,99,M,28,32,99,MA
+F4RE,Ansiedad Social,1,99,H,0,3,1,MB
+F4RE,Ansiedad Social,1,99,H,4,4,2,MB
+F4RE,Ansiedad Social,1,99,H,5,5,4,MB
+F4RE,Ansiedad Social,1,99,H,6,6,5,MB
+F4RE,Ansiedad Social,1,99,H,7,7,10,MB
+F4RE,Ansiedad Social,1,99,H,8,8,15,MB
+F4RE,Ansiedad Social,1,99,H,9,9,20,MB
+F4RE,Ansiedad Social,1,99,H,10,10,30,B
+F4RE,Ansiedad Social,1,99,H,11,11,40,M
+F4RE,Ansiedad Social,1,99,H,12,12,50,M
+F4RE,Ansiedad Social,1,99,H,13,13,60,M
+F4RE,Ansiedad Social,1,99,H,14,14,65,A
+F4RE,Ansiedad Social,1,99,H,15,15,75,A
+F4RE,Ansiedad Social,1,99,H,16,16,80,A
+F4RE,Ansiedad Social,1,99,H,17,18,90,MA
+F4RE,Ansiedad Social,1,99,H,19,20,95,MA
+F4RE,Ansiedad Social,1,99,H,21,21,96,MA
+F4RE,Ansiedad Social,1,99,H,22,22,97,MA
+F4RE,Ansiedad Social,1,99,H,23,23,98,MA
+F4RE,Ansiedad Social,1,99,H,24,32,99,MA
+F4RE,Ansiedad Social,1,99,M,0,3,1,MB
+F4RE,Ansiedad Social,1,99,M,4,4,2,MB
+F4RE,Ansiedad Social,1,99,M,5,5,4,MB
+F4RE,Ansiedad Social,1,99,M,6,6,5,MB
+F4RE,Ansiedad Social,1,99,M,7,7,10,MB
+F4RE,Ansiedad Social,1,99,M,8,8,15,MB
+F4RE,Ansiedad Social,1,99,M,9,9,20,MB
+F4RE,Ansiedad Social,1,99,M,10,10,30,B
+F4RE,Ansiedad Social,1,99,M,11,11,35,B
+F4RE,Ansiedad Social,1,99,M,12,12,45,M
+F4RE,Ansiedad Social,1,99,M,13,13,55,M
+F4RE,Ansiedad Social,1,99,M,14,14,65,A
+F4RE,Ansiedad Social,1,99,M,15,15,70,A
+F4RE,Ansiedad Social,1,99,M,16,16,75,A
+F4RE,Ansiedad Social,1,99,M,17,17,80,A
+F4RE,Ansiedad Social,1,99,M,18,18,85,MA
+F4RE,Ansiedad Social,1,99,M,19,20,90,MA
+F4RE,Ansiedad Social,1,99,M,21,21,95,MA
+F4RE,Ansiedad Social,1,99,M,22,22,96,MA
+F4RE,Ansiedad Social,1,99,M,23,23,97,MA
+F4RE,Ansiedad Social,1,99,M,24,24,98,MA
+F4RE,Ansiedad Social,1,99,M,25,32,99,MA
+F4R,Perseverancia,1,99,H,0,13,1,MB
+F4R,Perseverancia,1,99,H,14,16,3,MB
+F4R,Perseverancia,1,99,H,17,18,5,MB
+F4R,Perseverancia,1,99,H,19,19,10,MB
+F4R,Perseverancia,1,99,H,20,20,15,MB
+F4R,Perseverancia,1,99,H,21,21,25,B
+F4R,Perseverancia,1,99,H,22,22,30,B
+F4R,Perseverancia,1,99,H,23,23,40,M
+F4R,Perseverancia,1,99,H,24,24,50,M
+F4R,Perseverancia,1,99,H,25,25,60,M
+F4R,Perseverancia,1,99,H,26,26,70,A
+F4R,Perseverancia,1,99,H,27,27,80,A
+F4R,Perseverancia,1,99,H,28,28,85,MA
+F4R,Perseverancia,1,99,H,29,29,90,MA
+F4R,Perseverancia,1,99,H,30,30,95,MA
+F4R,Perseverancia,1,99,H,31,32,99,MA
+F4R,Perseverancia,1,99,M,0,15,1,MB
+F4R,Perseverancia,1,99,M,16,17,3,MB
+F4R,Perseverancia,1,99,M,18,19,5,MB
+F4R,Perseverancia,1,99,M,20,20,10,MB
+F4R,Perseverancia,1,99,M,21,21,15,MB
+F4R,Perseverancia,1,99,M,22,22,25,B
+F4R,Perseverancia,1,99,M,23,23,35,B
+F4R,Perseverancia,1,99,M,24,24,45,M
+F4R,Perseverancia,1,99,M,25,25,55,M
+F4R,Perseverancia,1,99,M,26,26,65,A
+F4R,Perseverancia,1,99,M,27,27,75,A
+F4R,Perseverancia,1,99,M,28,28,85,MA
+F4R,Perseverancia,1,99,M,29,29,90,MA
+F4R,Perseverancia,1,99,M,30,30,95,MA
+F4R,Perseverancia,1,99,M,31,32,99,MA
+F5AM,Curiosidad intelectual,1,99,H,0,7,1,MB
+F5AM,Curiosidad intelectual,1,99,H,8,8,2,MB
+F5AM,Curiosidad intelectual,1,99,H,9,9,4,MB
+F5AM,Curiosidad intelectual,1,99,H,10,11,5,MB
+F5AM,Curiosidad intelectual,1,99,H,12,13,10,MB
+F5AM,Curiosidad intelectual,1,99,H,14,15,15,MB
+F5AM,Curiosidad intelectual,1,99,H,16,16,20,MB
+F5AM,Curiosidad intelectual,1,99,H,17,17,30,B
+F5AM,Curiosidad intelectual,1,99,H,18,18,35,B
+F5AM,Curiosidad intelectual,1,99,H,19,19,40,M
+F5AM,Curiosidad intelectual,1,99,H,20,20,45,M
+F5AM,Curiosidad intelectual,1,99,H,21,21,55,M
+F5AM,Curiosidad intelectual,1,99,H,22,22,60,M
+F5AM,Curiosidad intelectual,1,99,H,23,23,70,A
+F5AM,Curiosidad intelectual,1,99,H,24,24,80,A
+F5AM,Curiosidad intelectual,1,99,H,25,25,85,MA
+F5AM,Curiosidad intelectual,1,99,H,26,27,90,MA
+F5AM,Curiosidad intelectual,1,99,H,28,28,95,MA
+F5AM,Curiosidad intelectual,1,99,H,29,29,96,MA
+F5AM,Curiosidad intelectual,1,99,H,30,30,98,MA
+F5AM,Curiosidad intelectual,1,99,H,31,32,99,MA
+F5AM,Curiosidad intelectual,1,99,M,0,8,1,MB
+F5AM,Curiosidad intelectual,1,99,M,9,9,2,MB
+F5AM,Curiosidad intelectual,1,99,M,10,10,3,MB
+F5AM,Curiosidad intelectual,1,99,M,11,12,5,MB
+F5AM,Curiosidad intelectual,1,99,M,13,13,10,MB
+F5AM,Curiosidad intelectual,1,99,M,14,15,15,MB
+F5AM,Curiosidad intelectual,1,99,M,16,16,20,MB
+F5AM,Curiosidad intelectual,1,99,M,17,17,30,B
+F5AM,Curiosidad intelectual,1,99,M,18,18,35,B
+F5AM,Curiosidad intelectual,1,99,M,19,19,40,M
+F5AM,Curiosidad intelectual,1,99,M,20,20,50,M
+F5AM,Curiosidad intelectual,1,99,M,21,21,60,M
+F5AM,Curiosidad intelectual,1,99,M,22,22,65,A
+F5AM,Curiosidad intelectual,1,99,M,23,23,75,A
+F5AM,Curiosidad intelectual,1,99,M,24,24,80,A
+F5AM,Curiosidad intelectual,1,99,M,25,26,90,MA
+F5AM,Curiosidad intelectual,1,99,M,27,27,95,MA
+F5AM,Curiosidad intelectual,1,99,M,28,28,97,MA
+F5AM,Curiosidad intelectual,1,99,M,29,32,99,MA
+F5C,Humildad,1,99,H,0,9,1,MB
+F5C,Humildad,1,99,H,10,11,3,MB
+F5C,Humildad,1,99,H,12,13,5,MB
+F5C,Humildad,1,99,H,14,14,10,MB
+F5C,Humildad,1,99,H,15,15,15,MB
+F5C,Humildad,1,99,H,16,16,20,MB
+F5C,Humildad,1,99,H,17,17,25,B
+F5C,Humildad,1,99,H,18,18,30,B
+F5C,Humildad,1,99,H,19,19,40,M
+F5C,Humildad,1,99,H,20,20,50,M
+F5C,Humildad,1,99,H,21,21,60,M
+F5C,Humildad,1,99,H,22,22,70,A
+F5C,Humildad,1,99,H,23,23,80,A
+F5C,Humildad,1,99,H,24,24,85,MA
+F5C,Humildad,1,99,H,25,25,90,MA
+F5C,Humildad,1,99,H,26,26,95,MA
+F5C,Humildad,1,99,H,27,28,97,MA
+F5C,Humildad,1,99,H,29,32,99,MA
+F5C,Humildad,1,99,M,0,11,1,MB
+F5C,Humildad,1,99,M,12,13,3,MB
+F5C,Humildad,1,99,M,14,15,5,MB
+F5C,Humildad,1,99,M,16,16,10,MB
+F5C,Humildad,1,99,M,17,17,15,MB
+F5C,Humildad,1,99,M,18,18,25,B
+F5C,Humildad,1,99,M,19,19,30,B
+F5C,Humildad,1,99,M,20,20,35,B
+F5C,Humildad,1,99,M,21,21,45,M
+F5C,Humildad,1,99,M,22,22,55,M
+F5C,Humildad,1,99,M,23,23,65,A
+F5C,Humildad,1,99,M,24,24,75,A
+F5C,Humildad,1,99,M,25,25,80,A
+F5C,Humildad,1,99,M,26,26,90,MA
+F5C,Humildad,1,99,M,27,27,95,MA
+F5C,Humildad,1,99,M,28,29,97,MA
+F5C,Humildad,1,99,M,30,32,99,MA
+F5E,Búsqueda de estimulación,1,99,H,0,4,1,MB
+F5E,Búsqueda de estimulación,1,99,H,5,5,2,MB
+F5E,Búsqueda de estimulación,1,99,H,6,6,3,MB
+F5E,Búsqueda de estimulación,1,99,H,7,7,5,MB
+F5E,Búsqueda de estimulación,1,99,H,8,9,10,MB
+F5E,Búsqueda de estimulación,1,99,H,10,10,20,MB
+F5E,Búsqueda de estimulación,1,99,H,11,11,25,B
+F5E,Búsqueda de estimulación,1,99,H,12,12,35,B
+F5E,Búsqueda de estimulación,1,99,H,13,13,45,M
+F5E,Búsqueda de estimulación,1,99,H,14,14,55,M
+F5E,Búsqueda de estimulación,1,99,H,15,15,60,M
+F5E,Búsqueda de estimulación,1,99,H,16,16,70,A
+F5E,Búsqueda de estimulación,1,99,H,17,17,80,A
+F5E,Búsqueda de estimulación,1,99,H,18,18,85,MA
+F5E,Búsqueda de estimulación,1,99,H,19,20,90,MA
+F5E,Búsqueda de estimulación,1,99,H,21,21,95,MA
+F5E,Búsqueda de estimulación,1,99,H,22,22,97,MA
+F5E,Búsqueda de estimulación,1,99,H,23,23,98,MA
+F5E,Búsqueda de estimulación,1,99,H,24,32,99,MA
+F5E,Búsqueda de estimulación,1,99,M,0,5,1,MB
+F5E,Búsqueda de estimulación,1,99,M,6,6,3,MB
+F5E,Búsqueda de estimulación,1,99,M,7,7,5,MB
+F5E,Búsqueda de estimulación,1,99,M,8,8,10,MB
+F5E,Búsqueda de estimulación,1,99,M,9,9,15,MB
+F5E,Búsqueda de estimulación,1,99,M,10,10,20,MB
+F5E,Búsqueda de estimulación,1,99,M,11,11,25,B
+F5E,Búsqueda de estimulación,1,99,M,12,12,35,B
+F5E,Búsqueda de estimulación,1,99,M,13,13,45,M
+F5E,Búsqueda de estimulación,1,99,M,14,14,50,M
+F5E,Búsqueda de estimulación,1,99,M,15,15,60,M
+F5E,Búsqueda de estimulación,1,99,M,16,16,70,A
+F5E,Búsqueda de estimulación,1,99,M,17,17,80,A
+F5E,Búsqueda de estimulación,1,99,M,18,18,85,MA
+F5E,Búsqueda de estimulación,1,99,M,19,19,90,MA
+F5E,Búsqueda de estimulación,1,99,M,20,20,95,MA
+F5E,Búsqueda de estimulación,1,99,M,21,21,96,MA
+F5E,Búsqueda de estimulación,1,99,M,22,23,98,MA
+F5E,Búsqueda de estimulación,1,99,M,24,32,99,MA
+F5RE,Impulsividad,1,99,H,0,4,1,MB
+F5RE,Impulsividad,1,99,H,5,5,2,MB
+F5RE,Impulsividad,1,99,H,6,6,3,MB
+F5RE,Impulsividad,1,99,H,7,7,5,MB
+F5RE,Impulsividad,1,99,H,8,9,10,MB
+F5RE,Impulsividad,1,99,H,10,10,20,MB
+F5RE,Impulsividad,1,99,H,11,11,25,B
+F5RE,Impulsividad,1,99,H,12,12,35,B
+F5RE,Impulsividad,1,99,H,13,13,45,M
+F5RE,Impulsividad,1,99,H,14,14,55,M
+F5RE,Impulsividad,1,99,H,15,15,65,A
+F5RE,Impulsividad,1,99,H,16,16,70,A
+F5RE,Impulsividad,1,99,H,17,17,80,A
+F5RE,Impulsividad,1,99,H,18,18,85,MA
+F5RE,Impulsividad,1,99,H,19,20,90,MA
+F5RE,Impulsividad,1,99,H,21,21,95,MA
+F5RE,Impulsividad,1,99,H,22,22,97,MA
+F5RE,Impulsividad,1,99,H,23,23,98,MA
+F5RE,Impulsividad,1,99,H,24,32,99,MA
+F5RE,Impulsividad,1,99,M,0,6,1,MB
+F5RE,Impulsividad,1,99,M,7,7,3,MB
+F5RE,Impulsividad,1,99,M,8,8,5,MB
+F5RE,Impulsividad,1,99,M,9,9,10,MB
+F5RE,Impulsividad,1,99,M,10,10,15,MB
+F5RE,Impulsividad,1,99,M,11,11,25,B
+F5RE,Impulsividad,1,99,M,12,12,30,B
+F5RE,Impulsividad,1,99,M,13,13,40,M
+F5RE,Impulsividad,1,99,M,14,14,50,M
+F5RE,Impulsividad,1,99,M,15,15,60,M
+F5RE,Impulsividad,1,99,M,16,16,70,A
+F5RE,Impulsividad,1,99,M,17,17,75,A
+F5RE,Impulsividad,1,99,M,18,18,85,MA
+F5RE,Impulsividad,1,99,M,19,20,90,MA
+F5RE,Impulsividad,1,99,M,21,21,95,MA
+F5RE,Impulsividad,1,99,M,22,22,97,MA
+F5RE,Impulsividad,1,99,M,23,23,98,MA
+F5RE,Impulsividad,1,99,M,24,32,99,MA
+F5R,Disciplina,1,99,H,0,12,1,MB
+F5R,Disciplina,1,99,H,13,15,3,MB
+F5R,Disciplina,1,99,H,16,17,5,MB
+F5R,Disciplina,1,99,H,18,19,10,MB
+F5R,Disciplina,1,99,H,20,20,15,MB
+F5R,Disciplina,1,99,H,21,21,20,B
+F5R,Disciplina,1,99,H,22,22,25,B
+F5R,Disciplina,1,99,H,23,23,35,B
+F5R,Disciplina,1,99,H,24,24,45,M
+F5R,Disciplina,1,99,H,25,25,55,M
+F5R,Disciplina,1,99,H,26,26,65,A
+F5R,Disciplina,1,99,H,27,27,75,A
+F5R,Disciplina,1,99,H,28,28,85,MA
+F5R,Disciplina,1,99,H,29,30,90,MA
+F5R,Disciplina,1,99,H,31,31,97,MA
+F5R,Disciplina,1,99,H,32,32,99,MA
+F5R,Disciplina,1,99,M,0,15,1,MB
+F5R,Disciplina,1,99,M,16,17,3,MB
+F5R,Disciplina,1,99,M,18,19,5,MB
+F5R,Disciplina,1,99,M,20,20,10,MB
+F5R,Disciplina,1,99,M,21,21,15,MB
+F5R,Disciplina,1,99,M,22,22,20,B
+F5R,Disciplina,1,99,M,23,23,30,B
+F5R,Disciplina,1,99,M,24,24,40,M
+F5R,Disciplina,1,99,M,25,25,55,M
+F5R,Disciplina,1,99,M,26,26,65,A
+F5R,Disciplina,1,99,M,27,27,75,A
+F5R,Disciplina,1,99,M,28,28,85,MA
+F5R,Disciplina,1,99,M,29,29,90,MA
+F5R,Disciplina,1,99,M,30,30,95,MA
+F5R,Disciplina,1,99,M,31,32,99,MA
+F6AM,Apertura en valores,1,99,H,0,12,1,MB
+F6AM,Apertura en valores,1,99,H,13,14,2,MB
+F6AM,Apertura en valores,1,99,H,15,15,3,MB
+F6AM,Apertura en valores,1,99,H,16,16,5,MB
+F6AM,Apertura en valores,1,99,H,17,17,10,MB
+F6AM,Apertura en valores,1,99,H,18,18,15,MB
+F6AM,Apertura en valores,1,99,H,19,19,20,MB
+F6AM,Apertura en valores,1,99,H,20,20,30,B
+F6AM,Apertura en valores,1,99,H,21,21,45,M
+F6AM,Apertura en valores,1,99,H,22,22,55,M
+F6AM,Apertura en valores,1,99,H,23,23,65,A
+F6AM,Apertura en valores,1,99,H,24,24,75,A
+F6AM,Apertura en valores,1,99,H,25,25,85,MA
+F6AM,Apertura en valores,1,99,H,26,26,90,MA
+F6AM,Apertura en valores,1,99,H,27,27,95,MA
+F6AM,Apertura en valores,1,99,H,28,28,97,MA
+F6AM,Apertura en valores,1,99,H,29,32,99,MA
+F6AM,Apertura en valores,1,99,M,0,15,1,MB
+F6AM,Apertura en valores,1,99,M,16,16,3,MB
+F6AM,Apertura en valores,1,99,M,17,17,5,MB
+F6AM,Apertura en valores,1,99,M,18,18,10,MB
+F6AM,Apertura en valores,1,99,M,19,19,20,MB
+F6AM,Apertura en valores,1,99,M,20,20,30,B
+F6AM,Apertura en valores,1,99,M,21,21,40,M
+F6AM,Apertura en valores,1,99,M,22,22,55,M
+F6AM,Apertura en valores,1,99,M,23,23,65,A
+F6AM,Apertura en valores,1,99,M,24,24,75,A
+F6AM,Apertura en valores,1,99,M,25,25,85,MA
+F6AM,Apertura en valores,1,99,M,26,26,90,MA
+F6AM,Apertura en valores,1,99,M,27,27,95,MA
+F6AM,Apertura en valores,1,99,M,28,28,98,MA
+F6AM,Apertura en valores,1,99,M,29,32,99,MA
+F6C,Empatía,1,99,H,0,15,1,MB
+F6C,Empatía,1,99,H,16,17,3,MB
+F6C,Empatía,1,99,H,18,18,5,MB
+F6C,Empatía,1,99,H,19,19,10,MB
+F6C,Empatía,1,99,H,20,20,15,MB
+F6C,Empatía,1,99,H,21,21,25,B
+F6C,Empatía,1,99,H,22,22,30,B
+F6C,Empatía,1,99,H,23,23,45,M
+F6C,Empatía,1,99,H,24,24,55,M
+F6C,Empatía,1,99,H,25,25,65,A
+F6C,Empatía,1,99,H,26,26,75,A
+F6C,Empatía,1,99,H,27,27,85,MA
+F6C,Empatía,1,99,H,28,28,90,MA
+F6C,Empatía,1,99,H,29,29,95,MA
+F6C,Empatía,1,99,H,30,30,97,MA
+F6C,Empatía,1,99,H,31,32,99,MA
+F6C,Empatía,1,99,M,0,16,1,MB
+F6C,Empatía,1,99,M,17,18,3,MB
+F6C,Empatía,1,99,M,19,19,5,MB
+F6C,Empatía,1,99,M,20,20,10,MB
+F6C,Empatía,1,99,M,21,21,25,B
+F6C,Empatía,1,99,M,22,22,30,B
+F6C,Empatía,1,99,M,23,23,40,M
+F6C,Empatía,1,99,M,24,24,50,M
+F6C,Empatía,1,99,M,25,25,65,A
+F6C,Empatía,1,99,M,26,26,75,A
+F6C,Empatía,1,99,M,27,27,85,MA
+F6C,Empatía,1,99,M,28,28,90,MA
+F6C,Empatía,1,99,M,29,29,95,MA
+F6C,Empatía,1,99,M,30,30,97,MA
+F6C,Empatía,1,99,M,31,32,99,MA
+F6E,Positividad,1,99,H,0,11,1,MB
+F6E,Positividad,1,99,H,12,12,2,MB
+F6E,Positividad,1,99,H,13,13,3,MB
+F6E,Positividad,1,99,H,14,14,4,MB
+F6E,Positividad,1,99,H,15,15,5,MB
+F6E,Positividad,1,99,H,16,17,10,MB
+F6E,Positividad,1,99,H,18,18,15,MB
+F6E,Positividad,1,99,H,19,19,20,MB
+F6E,Positividad,1,99,H,20,20,25,B
+F6E,Positividad,1,99,H,21,21,35,B
+F6E,Positividad,1,99,H,22,22,40,M
+F6E,Positividad,1,99,H,23,23,50,M
+F6E,Positividad,1,99,H,24,24,60,M
+F6E,Positividad,1,99,H,25,25,70,A
+F6E,Positividad,1,99,H,26,26,80,A
+F6E,Positividad,1,99,H,27,27,85,MA
+F6E,Positividad,1,99,H,28,28,90,MA
+F6E,Positividad,1,99,H,29,29,95,MA
+F6E,Positividad,1,99,H,30,30,97,MA
+F6E,Positividad,1,99,H,31,31,98,MA
+F6E,Positividad,1,99,H,32,32,99,MA
+F6E,Positividad,1,99,M,0,14,1,MB
+F6E,Positividad,1,99,M,15,15,2,MB
+F6E,Positividad,1,99,M,16,16,4,MB
+F6E,Positividad,1,99,M,17,17,5,MB
+F6E,Positividad,1,99,M,18,18,10,MB
+F6E,Positividad,1,99,M,19,20,15,MB
+F6E,Positividad,1,99,M,21,21,25,B
+F6E,Positividad,1,99,M,22,22,30,B
+F6E,Positividad,1,99,M,23,23,40,M
+F6E,Positividad,1,99,M,24,24,50,M
+F6E,Positividad,1,99,M,25,25,60,M
+F6E,Positividad,1,99,M,26,26,70,A
+F6E,Positividad,1,99,M,27,27,80,A
+F6E,Positividad,1,99,M,28,28,85,MA
+F6E,Positividad,1,99,M,29,29,90,MA
+F6E,Positividad,1,99,M,30,30,95,MA
+F6E,Positividad,1,99,M,31,31,97,MA
+F6E,Positividad,1,99,M,32,32,99,MA
+F6RE,Fragilidad emocional,1,99,H,0,0,1,MB
+F6RE,Fragilidad emocional,1,99,H,1,1,4,MB
+F6RE,Fragilidad emocional,1,99,H,2,3,10,MB
+F6RE,Fragilidad emocional,1,99,H,4,4,15,MB
+F6RE,Fragilidad emocional,1,99,H,5,5,20,MB
+F6RE,Fragilidad emocional,1,99,H,6,6,30,B
+F6RE,Fragilidad emocional,1,99,H,7,7,40,M
+F6RE,Fragilidad emocional,1,99,H,8,8,55,M
+F6RE,Fragilidad emocional,1,99,H,9,9,70,A
+F6RE,Fragilidad emocional,1,99,H,10,10,80,A
+F6RE,Fragilidad emocional,1,99,H,11,11,85,MA
+F6RE,Fragilidad emocional,1,99,H,12,12,90,MA
+F6RE,Fragilidad emocional,1,99,H,13,14,95,MA
+F6RE,Fragilidad emocional,1,99,H,15,15,97,MA
+F6RE,Fragilidad emocional,1,99,H,16,17,98,MA
+F6RE,Fragilidad emocional,1,99,H,18,32,99,MA
+F6RE,Fragilidad emocional,1,99,M,0,0,1,MB
+F6RE,Fragilidad emocional,1,99,M,1,1,2,MB
+F6RE,Fragilidad emocional,1,99,M,2,2,3,MB
+F6RE,Fragilidad emocional,1,99,M,3,3,5,MB
+F6RE,Fragilidad emocional,1,99,M,4,4,10,MB
+F6RE,Fragilidad emocional,1,99,M,5,5,15,MB
+F6RE,Fragilidad emocional,1,99,M,6,6,20,MB
+F6RE,Fragilidad emocional,1,99,M,7,7,30,B
+F6RE,Fragilidad emocional,1,99,M,8,8,40,M
+F6RE,Fragilidad emocional,1,99,M,9,9,50,M
+F6RE,Fragilidad emocional,1,99,M,10,10,60,M
+F6RE,Fragilidad emocional,1,99,M,11,11,70,A
+F6RE,Fragilidad emocional,1,99,M,12,12,80,A
+F6RE,Fragilidad emocional,1,99,M,13,13,85,MA
+F6RE,Fragilidad emocional,1,99,M,14,14,90,MA
+F6RE,Fragilidad emocional,1,99,M,15,16,95,MA
+F6RE,Fragilidad emocional,1,99,M,17,17,97,MA
+F6RE,Fragilidad emocional,1,99,M,18,18,98,MA
+F6RE,Fragilidad emocional,1,99,M,19,32,99,MA
+F6R,Planificación,1,99,H,0,7,1,MB
+F6R,Planificación,1,99,H,8,9,3,MB
+F6R,Planificación,1,99,H,10,14,5,MB
+F6R,Planificación,1,99,H,15,16,10,MB
+F6R,Planificación,1,99,H,17,17,15,MB
+F6R,Planificación,1,99,H,18,18,20,MB
+F6R,Planificación,1,99,H,19,19,25,B
+F6R,Planificación,1,99,H,20,20,30,B
+F6R,Planificación,1,99,H,21,21,35,B
+F6R,Planificación,1,99,H,22,22,45,M
+F6R,Planificación,1,99,H,23,23,55,M
+F6R,Planificación,1,99,H,24,24,70,A
+F6R,Planificación,1,99,H,25,25,80,A
+F6R,Planificación,1,99,H,26,26,85,MA
+F6R,Planificación,1,99,H,27,27,90,MA
+F6R,Planificación,1,99,H,28,28,95,MA
+F6R,Planificación,1,99,H,29,30,97,MA
+F6R,Planificación,1,99,H,31,32,99,MA
+F6R,Planificación,1,99,M,0,9,1,MB
+F6R,Planificación,1,99,M,10,12,3,MB
+F6R,Planificación,1,99,M,13,14,5,MB
+F6R,Planificación,1,99,M,15,16,10,MB
+F6R,Planificación,1,99,M,17,18,15,MB
+F6R,Planificación,1,99,M,19,19,25,B
+F6R,Planificación,1,99,M,20,20,30,B
+F6R,Planificación,1,99,M,21,21,35,B
+F6R,Planificación,1,99,M,22,22,45,M
+F6R,Planificación,1,99,M,23,23,55,M
+F6R,Planificación,1,99,M,24,24,65,A
+F6R,Planificación,1,99,M,25,25,75,A
+F6R,Planificación,1,99,M,26,26,85,MA
+F6R,Planificación,1,99,M,27,27,90,MA
+F6R,Planificación,1,99,M,28,28,95,MA
+F6R,Planificación,1,99,M,29,29,97,MA
+F6R,Planificación,1,99,M,30,32,99,MA

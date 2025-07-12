@@ -1,0 +1,253 @@
+item_id,item_texto,codigo_faceta,tipo_puntuacion,nombre_faceta
+00_IT1_F1E,"Normalmente, me gusta la mayoría de gente que conozco.",F1E,DIR,Capacidad de relación
+00_IT2_F1E,No me gusta demasiado hablar con la gente.,F1E,INV,Capacidad de relación
+00_IT3_F1E,Me conocen por ser una persona afectuosa y amable.,F1E,DIR,Capacidad de relación
+00_IT4_F1E,Muchas personas piensan de mí que soy algo frío/a y distante.,F1E,INV,Capacidad de relación
+00_IT5_F1E,Verdaderamente disfruto hablando con la gente.,F1E,DIR,Capacidad de relación
+00_IT6_F1E,Me es fácil sonreír y ser sociable con personas extrañas.,F1E,DIR,Capacidad de relación
+00_IT7_F1E,Tengo fuertes vínculos emocionales con mis amigos.,F1E,DIR,Capacidad de relación
+00_IT8_F1E,Tengo un interés personal por las personas con las que trabajo.,F1E,DIR,Capacidad de relación
+00_IT1_F2E,No me gustan los lugares donde hay mucha gente.,F2E,INV,Sociabilidad
+00_IT2_F2E,Me gusta tener muchas personas a mi alrededor.,F2E,DIR,Sociabilidad
+00_IT3_F2E,Normalmente prefiero hacer las cosas yo sólo/a.,F2E,INV,Sociabilidad
+00_IT4_F2E,"No puedo estar solo/a mucho tiempo, realmente necesito a otras personas.",F2E,DIR,Sociabilidad
+00_IT5_F2E,"Prefiero trabajos en solitario, sin que otros me molesten.",F2E,INV,Sociabilidad
+00_IT6_F2E,Prefiero pasar las vacaciones en una playa frecuentada por mucha gente que en una cabaña aislada en el bosque.,F2E,DIR,Sociabilidad
+00_IT7_F2E,Las reuniones sociales son generalmente aburridas.,F2E,INV,Sociabilidad
+00_IT8_F2E,Disfruto de las fiestas donde hay muchas personas.,F2E,DIR,Sociabilidad
+00_IT1_F3E,"Soy una persona dominante, enérgica y que defiende con rotundidad su postura.",F3E,DIR,Dominancia
+00_IT2_F3E,Algunas veces no puedo sostener mi opinión o mi criterio.,F3E,INV,Dominancia
+00_IT3_F3E,Con frecuencia he sido líder de los grupos a los que he pertenecido.,F3E,DIR,Dominancia
+00_IT4_F3E,"En las reuniones, normalmente dejo que otros hablen.",F3E,INV,Dominancia
+00_IT5_F3E,"Frecuentemente, los demás esperan que sea yo quien tome las decisiones.",F3E,DIR,Dominancia
+00_IT6_F3E,Preferiría seguir mi camino que liderar a otras personas.,F3E,INV,Dominancia
+00_IT7_F3E,Tiendo a monopolizar todas las conversaciones.,F3E,DIR,Dominancia
+00_IT8_F3E,No me resulta sencillo llevar el control de una situación.,F3E,INV,Dominancia
+00_IT1_F4E,Me comporto con tranquilidad tanto en el trabajo como en el ocio.,F4E,INV,Dinamismo
+00_IT2_F4E,"Cuando hago algo, lo hago con ganas.",F4E,DIR,Dinamismo
+00_IT3_F4E,Normalmente trabajo sin prisas pero sin pausas.,F4E,INV,Dinamismo
+00_IT4_F4E,Frecuentemente me siento lleno de energía.,F4E,DIR,Dinamismo
+00_IT5_F4E,No soy tan despierto/a y animado/a como otras personas.,F4E,INV,Dinamismo
+00_IT6_F4E,Habitualmente parece que tengo prisa.,F4E,DIR,Dinamismo
+00_IT7_F4E,Mi vida es muy agitada y con un gran número de actividades.,F4E,DIR,Dinamismo
+00_IT8_F4E,Soy una persona muy activa y dinámica.,F4E,DIR,Dinamismo
+00_IT1_F5E,A menudo busco situaciones excitantes.,F5E,DIR,Búsqueda de estimulación
+00_IT2_F5E,No disfrutaría de unas vacaciones en Las Vegas.,F5E,INV,Búsqueda de estimulación
+00_IT3_F5E,Algunas veces he hecho cosas solamente por el placer o la emoción que conllevaban.,F5E,DIR,Búsqueda de estimulación
+00_IT4_F5E,Tiendo a evitar las películas de terror.,F5E,INV,Búsqueda de estimulación
+00_IT5_F5E,Quiero estar donde se encuentre la acción.,F5E,DIR,Búsqueda de estimulación
+00_IT6_F5E,Me encanta la emoción de la montaña rusa y de otras atracciones parecidas,F5E,DIR,Búsqueda de estimulación
+00_IT7_F5E,Me atraen los colores llamativos y las intensidades estimulares intensas.,F5E,DIR,Búsqueda de estimulación
+00_IT8_F5E,Me gusta sentirme parte del público en los actos deportivos emocionantes.,F5E,DIR,Búsqueda de estimulación
+00_IT1_F6E,"Normalmente, nunca suelo tener expresiones de alegría desmesurada.",F6E,INV,Positividad 
+00_IT2_F6E,Algunas veces he experimentado una intensa felicidad o éxtasis.,F6E,DIR,Positividad 
+00_IT3_F6E,No soy una persona especialmente animada y optimista.,F6E,INV,Positividad 
+00_IT4_F6E,Algunas veces me encuentro muy feliz.,F6E,DIR,Positividad 
+00_IT5_F6E,No me considero una persona especialmente alegre.,F6E,INV,Positividad 
+00_IT6_F6E,"Soy una persona alegre, animada y optimista.",F6E,DIR,Positividad 
+00_IT7_F6E,Raramente uso expresiones como “¡fantástico!” o “¡sensacional!” para describir lo que siento.,F6E,INV,Positividad 
+00_IT8_F6E,"Normalmente, soy una persona que se ríe con facilidad.",F6E,DIR,Positividad 
+00_IT1_F1RE,Yo no soy una persona que se preocupe en exceso.,F1RE,INV,Preocupaciones/miedos
+00_IT2_F1RE,Soy una persona que se asusta fácilmente.,F1RE,DIR,Preocupaciones/miedos
+00_IT3_F1RE,Raramente me siento nervioso/a o con miedo.,F1RE,INV,Preocupaciones/miedos
+00_IT4_F1RE,Con frecuencia me siento tenso/a y alterado/a.,F1RE,DIR,Preocupaciones/miedos
+00_IT5_F1RE,Rara vez siento preocupación sobre el futuro.,F1RE,INV,Preocupaciones/miedos
+00_IT6_F1RE,Frecuentemente me preocupa que las cosas me puedan ir mal.,F1RE,DIR,Preocupaciones/miedos
+00_IT7_F1RE,Creo que soy una persona que tiene menos miedos que la mayoría de la gente.,F1RE,INV,Preocupaciones/miedos
+00_IT8_F1RE,A veces tengo pensamientos de miedo.,F1RE,DIR,Preocupaciones/miedos
+00_IT1_F2RE,Me enfado a menudo por la forma en que me tratan los demás.,F2RE,DIR,Irritabilidad
+00_IT2_F2RE,Soy una persona apacible y tranquila.,F2RE,INV,Irritabilidad
+00_IT3_F2RE,Me conocen como impetuoso/a y por enfadarme fácilmente.,F2RE,DIR,Irritabilidad
+00_IT4_F2RE,No se me considera una persona puntillosa o temperamental.,F2RE,INV,Irritabilidad
+00_IT5_F2RE,Frecuentemente acabo molesto/a con la gente con quien tengo que relacionarme.,F2RE,DIR,Irritabilidad
+00_IT6_F2RE,Me cuesta mucho ponerme de mal humor y enfadarme.,F2RE,INV,Irritabilidad
+00_IT7_F2RE,A veces me he sentido amargado/a y resentido/a.,F2RE,DIR,Irritabilidad
+00_IT8_F2RE,Las pequeñas molestias pueden llegar a frustrarme.,F2RE,DIR,Irritabilidad
+00_IT1_F3RE,Raramente me siento solo/a o decaído/a.,F3RE,INV,Tristeza
+00_IT2_F3RE,Algunas veces me siento completamente inútil.,F3RE,DIR,Tristeza
+00_IT3_F3RE,Casi nunca estoy triste o con bajones en mi estado de ánimo.,F3RE,INV,Tristeza
+00_IT4_F3RE,Algunas veces he tenido un profundo sentimiento de culpa por mis acciones.,F3RE,DIR,Tristeza
+00_IT5_F3RE,Tiendo a culpabilizarme cuando algo sale mal.,F3RE,DIR,Tristeza
+00_IT6_F3RE,Tengo una pobre opinión de mí mismo/a.,F3RE,DIR,Tristeza
+00_IT7_F3RE,Algunas veces las cosas me parecen poco prometedoras y sin esperanza.,F3RE,DIR,Tristeza
+00_IT8_F3RE,"Frecuentemente y cuando las cosas van mal, me desanimo y tengo ganas de rendirme.",F3RE,DIR,Tristeza
+00_IT1_F4RE,En el trato con los demás siempre temo meter la pata y hacer el ridículo.,F4RE,DIR,Ansiedad social
+00_IT2_F4RE,Pocas veces me siento cohibido/a cuando estoy con otras personas.,F4RE,INV,Ansiedad social
+00_IT3_F4RE,A veces me he sentido tan avergonzado/a que sólo quería esconderme para que nadie me viera.,F4RE,DIR,Ansiedad social
+00_IT4_F4RE,"No me siento mal si la gente se ríe de mí, no me toma en serio y me toma el pelo.",F4RE,INV,Ansiedad social
+00_IT5_F4RE,Frecuentemente me siento inferior a los demás.,F4RE,DIR,Ansiedad social
+00_IT6_F4RE,Me siento cómodo/a en presencia de mis jefes u otros superiores.,F4RE,INV,Ansiedad social
+00_IT7_F4RE,"Si he dicho o hecho algo malo a alguien, casi no puedo enfrentarme con él otra vez y mirarle a la cara.",F4RE,DIR,Ansiedad social
+00_IT8_F4RE,"Cuando las personas que conozco hacen tonterías, siento mucha vergüenza.",F4RE,DIR,Ansiedad social
+00_IT1_F5RE,Raramente abuso de algo y me paso de la ralla.,F5RE,INV,Impulsividad
+00_IT2_F5RE,Tengo problemas para resistirme a mis deseos y caprichos.,F5RE,DIR,Impulsividad
+00_IT3_F5RE,No me resulta complicado resistir a la tentación.,F5RE,INV,Impulsividad
+00_IT4_F5RE,"Con mis platos favoritos, suelo comer en exceso.",F5RE,DIR,Impulsividad
+00_IT5_F5RE,Raramente me dejo llevar por impulsos o arrebatos instantáneos.,F5RE,INV,Impulsividad
+00_IT6_F5RE,A veces como hasta hartarme.,F5RE,DIR,Impulsividad
+00_IT7_F5RE,Algunas veces hago cosas sin pensarlas y luego me arrepiento de ello.,F5RE,DIR,Impulsividad
+00_IT8_F5RE,Siempre puedo controlar mis emociones.,F5RE,INV,Impulsividad
+00_IT1_F6RE,A veces me siento indefenso/a y deseo que los demás resuelvan mis problemas.,F6RE,DIR,Fragilidad emocional
+00_IT2_F6RE,Me siento capaz de resolver la mayoría de mis problemas.,F6RE,INV,Fragilidad emocional
+00_IT3_F6RE,"Si estoy presionado, algunas veces me siento como si me rompiera en pedazos.",F6RE,DIR,Fragilidad emocional
+00_IT4_F6RE,"Normalmente, mantengo el control ante una situación crítica.",F6RE,INV,Fragilidad emocional
+00_IT5_F6RE,Frecuentemente me cuesta decidirme.,F6RE,DIR,Fragilidad emocional
+00_IT6_F6RE,Me controlo muy bien durante una crisis o en una situación de fuerte estrés.,F6RE,INV,Fragilidad emocional
+00_IT7_F6RE,"Cuando todo parece ir mal, todavía soy capaz de tomar buenas decisiones.",F6RE,INV,Fragilidad emocional
+00_IT8_F6RE,Tengo mucha estabilidad emocional.,F6RE,INV,Fragilidad emocional
+00_IT1_F1C,Tiendo a ser desconfiado/a y escéptico/a sobre las intenciones de las otras personas.,F1C,INV,Confianza en los demás
+00_IT2_F1C,Creo que la mayoría de la gente es bien intencionada.,F1C,DIR,Confianza en los demás
+00_IT3_F1C,La mayoría de la gente se aprovecharía de uno/a si pudieran.,F1C,INV,Confianza en los demás
+00_IT4_F1C,Casi todas las personas con las que me relaciono son honradas y de confianza.,F1C,DIR,Confianza en los demás
+00_IT5_F1C,"Cuando alguien hace algo bueno por mí, tiendo a sospechar que pretende algo.",F1C,INV,Confianza en los demás
+00_IT6_F1C,Mi primera reacción es de confiar en la gente.,F1C,DIR,Confianza en los demás
+00_IT7_F1C,Tiendo a pensar bien de la gente y a ver su mejor lado.,F1C,DIR,Confianza en los demás
+00_IT8_F1C,Personalmente tengo una gran fe en la naturaleza humana.,F1C,DIR,Confianza en los demás
+00_IT1_F2C,No soy ingenioso/a o astuto/a.,F2C,DIR,Honestidad
+00_IT2_F2C,"Si es necesario, manipularía a la gente para conseguir mis objetivos.",F2C,INV,Honestidad
+00_IT3_F2C,No podría engañar a nadie aunque quisiera.,F2C,DIR,Honestidad
+00_IT4_F2C,Ser completamente honrado/a es perjudicial para los negocios.,F2C,INV,Honestidad
+00_IT5_F2C,No me gustaría que me considerasen como un/a hipócrita o como una persona falsa,F2C,DIR,Honestidad
+00_IT6_F2C,A veces engaño a la gente para que hagan lo que quiero.,F2C,INV,Honestidad
+00_IT7_F2C,A veces intimido o halago a la gente para que hagan lo que quiero.,F2C,INV,Honestidad
+00_IT8_F2C,Estoy orgulloso de mi inteligencia a la hora de relacionarme con los demás.,F2C,INV,Honestidad
+00_IT1_F3C,Algunas personas piensan de mi que soy interesado/a y egoísta.,F3C,INV,Generosidad
+00_IT2_F3C,Trato de ser amable y educado con todo el mundo que conozco.,F3C,DIR,Generosidad
+00_IT3_F3C,Es probable que algunas personas me consideren frío/a y calculador/a.,F3C,INV,Generosidad
+00_IT4_F3C,"Generalmente, trato de ser atento/a con las otras personas.",F3C,DIR,Generosidad
+00_IT5_F3C,Se puede decir que la generosidad no es una de mis principales virtudes.,F3C,INV,Generosidad
+00_IT6_F3C,Le caigo bien a la mayoría de gente que conozco.,F3C,DIR,Generosidad
+00_IT7_F3C,Me considero una persona caritativa que no duda en ayudar a los que más lo necesitan.,F3C,DIR,Generosidad
+00_IT8_F3C,"Si puedo, me tomo la molestia de ayudar a los demás aunque me cueste mi tiempo y mi dinero.",F3C,DIR,Generosidad
+00_IT1_F4C,Prefiero cooperar con otras personas a tener que competir con ellos.,F4C,DIR,Actitud pacificadora
+00_IT2_F4C,Puedo ser muy sarcástico/a y cortante cuando pienso que necesito serlo.,F4C,INV,Actitud pacificadora
+00_IT3_F4C,Me cuesta mucho expresar mi ira aun cuando sea justificada.,F4C,DIR,Actitud pacificadora
+00_IT4_F4C,"Si alguien no me gusta, se lo digo claramente.",F4C,INV,Actitud pacificadora
+00_IT5_F4C,"Si me han insultado, sólo trato de perdonar y olvidar.",F4C,DIR,Actitud pacificadora
+00_IT6_F4C,"Si alguien comienza una pelea, estoy preparado/a para luchar. Es decir, si me buscan me encuentran.",F4C,INV,Actitud pacificadora
+00_IT7_F4C,Soy terco/a y testarudo/a.,F4C,INV,Actitud pacificadora
+00_IT8_F4C,Suelo mantener discusiones frecuentes con mi familia y con los compañeros de trabajo.,F4C,INV,Actitud pacificadora
+00_IT1_F5C,No me importa alardear de mis meritos y virtudes.,F5C,INV,Humildad
+00_IT2_F5C,Prefiero no hablar de mí mismo ni de mis logros.,F5C,DIR,Humildad
+00_IT3_F5C,Pienso que soy mejor que la mayoría de personas y estoy convencido/a de ello.,F5C,INV,Humildad
+00_IT4_F5C,Normalmente trato de ser humilde.,F5C,DIR,Humildad
+00_IT5_F5C,Tengo una elevada opinión de mí mismo/a y de mi capacidad.,F5C,INV,Humildad
+00_IT6_F5C,"Pienso que no soy mejor que los demás, cualesquiera que sean sus características.",F5C,DIR,Humildad
+00_IT7_F5C,"Prefiero elogiar a los demás, que ser elogiado/a.",F5C,DIR,Humildad
+00_IT8_F5C,Pienso de mi mismo/a que soy una persona superior.,F5C,INV,Humildad
+00_IT1_F6C,Los líderes políticos han de tener más en cuenta lo humano en sus discursos.,F6C,DIR,Empatía
+00_IT2_F6C,Tengo una actitud poco sentimental en mi modo de actuar.,F6C,INV,Empatía
+00_IT3_F6C,"Nunca podríamos hacer suficiente para las personas más necesitadas (pobres, personas mayores, etc.).",F6C,DIR,Empatía
+00_IT4_F6C,No siento ninguna simpatía por los indigentes.,F6C,INV,Empatía
+00_IT5_F6C,Las necesidades humanas deben ser prioritarias sobre las cuestiones económicas.,F6C,DIR,Empatía
+00_IT6_F6C,Pienso que todos los seres humanos merecen un respeto.,F6C,DIR,Empatía
+00_IT7_F6C,Siento mucha compasión por las personas que son menos afortunadas que yo.,F6C,DIR,Empatía
+00_IT8_F6C,Prefería que se me conociese más por “misericordioso/a” que por “justo/a”.,F6C,DIR,Empatía
+00_IT1_F1R,Se me conoce por mi gran sentido común.,F1R,DIR,Capacidad
+00_IT2_F1R,"No me importan demasiado las obligaciones cívicas, como por ejemplo votar.",F1R,INV,Capacidad
+00_IT3_F1R,Me mantengo bien informado/a y normalmente mis decisiones son inteligentes.,F1R,DIR,Capacidad
+00_IT4_F1R,Con frecuencia me meto en situaciones para las que no estoy totalmente preparado/a.,F1R,INV,Capacidad
+00_IT5_F1R,Estoy orgulloso/a de mi buen juicio.,F1R,DIR,Capacidad
+00_IT6_F1R,No parece que tenga un éxito completo en nada.,F1R,INV,Capacidad
+00_IT7_F1R,Pienso de mi mismo/a que soy una persona muy competente.,F1R,DIR,Capacidad
+00_IT8_F1R,Normalmente soy muy eficiente y efectivo/a en mi trabajo.,F1R,DIR,Capacidad
+00_IT1_F2R,Prefiero improvisar que hacer planes.,F2R,INV,Minuciosidad
+00_IT2_F2R,Mantengo mis cosas ordenadas y limpias.,F2R,DIR,Minuciosidad
+00_IT3_F2R,No soy una persona excesivamente metódica.,F2R,INV,Minuciosidad
+00_IT4_F2R,Me gusta tenerlo todo ordenado para saber donde está exactamente cada cosa.,F2R,DIR,Minuciosidad
+00_IT5_F2R,Parece que nunca puedo organizarme completamente.,F2R,INV,Minuciosidad
+00_IT6_F2R,Tiendo a ser un poco exigente con el orden de las cosas.,F2R,DIR,Minuciosidad
+00_IT7_F2R,No tengo manías sobre la limpieza.,F2R,INV,Minuciosidad
+00_IT8_F2R,Dedico mucho tiempo a buscar cosas que he perdido.,F2R,INV,Minuciosidad
+00_IT1_F3R,Trato de hacer mi trabajo lo mejor posible.,F3R,DIR,Compromiso personal
+00_IT2_F3R,Algunas veces no soy tan formal ni digno/a de confianza como debiera.,F3R,INV,Compromiso personal
+00_IT3_F3R,Pago mis deudas a tiempo y en su totalidad.,F3R,DIR,Compromiso personal
+00_IT4_F3R,Algunas veces hago trampas cuando juego al solitario.,F3R,INV,Compromiso personal
+00_IT5_F3R,"Cuando me comprometo, siempre se puede esperar que cumpla.",F3R,DIR,Compromiso personal
+00_IT6_F3R,Me rijo estrictamente por mis propios principios éticos.,F3R,DIR,Compromiso personal
+00_IT7_F3R,Trato de realizar el trabajo con cuidado para que no haya que repetirlo.,F3R,DIR,Compromiso personal
+00_IT8_F3R,Tengo que estar verdaderamente enfermo/a para faltar al trabajo.,F3R,DIR,Compromiso personal
+00_IT1_F4R,Soy cómodo/a y no me agobio demasiado con mi trabajo.,F4R,INV,Perseverancia
+00_IT2_F4R,Tengo una serie de metas y me esfuerzo por alcanzarlas de forma ordenada.,F4R,DIR,Perseverancia
+00_IT3_F4R,"Cuando me propongo superarme en algo, pronto desisto y no consigo persistir en ello.",F4R,INV,Perseverancia
+00_IT4_F4R,Trabajo duro para conseguir mis objetivos.,F4R,DIR,Perseverancia
+00_IT5_F4R,No tengo ganas de superarme.,F4R,INV,Perseverancia
+00_IT6_F4R,Me esfuerzo por conseguir todo lo que pueda.,F4R,DIR,Perseverancia
+00_IT7_F4R,Me esfuerzo por hacerlo todo bien.,F4R,DIR,Perseverancia
+00_IT8_F4R,Soy adicto/a a mi trabajo.,F4R,DIR,Perseverancia
+00_IT1_F5R,Soy bastante hábil para marcarme un ritmo para hacer el trabajo a tiempo.,F5R,DIR,Disciplina
+00_IT2_F5R,Pierdo mucho tiempo antes de ponerme a trabajar.,F5R,INV,Disciplina
+00_IT3_F5R,Soy una persona responsable que siempre cumple con su trabajo.,F5R,DIR,Disciplina
+00_IT4_F5R,Me es difícil obligarme a hacer lo que debo.,F5R,INV,Disciplina
+00_IT5_F5R,"Cuando comienzo algo, casi siempre lo termino.",F5R,DIR,Disciplina
+00_IT6_F5R,"Cuando algo se me hace demasiado difícil, tiendo a empezar otra cosa.",F5R,INV,Disciplina
+00_IT7_F5R,"Hay tantas cosas pequeñas que hay que hacer, que a veces ni las tengo en cuenta.",F5R,INV,Disciplina
+00_IT8_F5R,Tengo mucha auto-disciplina.,F5R,DIR,Disciplina
+00_IT1_F6R,He hecho bastantes tonterías en el pasado.,F6R,INV,Planificación
+00_IT2_F6R,Pienso las cosas cuidadosamente antes de decidir.,F6R,DIR,Planificación
+00_IT3_F6R,A veces actúo primero y pienso después.,F6R,INV,Planificación
+00_IT4_F6R,Siempre sopeso las consecuencias antes de hacer algo.,F6R,DIR,Planificación
+00_IT5_F6R,Frecuentemente hago las cosas por impulso.,F6R,INV,Planificación
+00_IT6_F6R,Rara vez tomo decisiones precipitadas.,F6R,DIR,Planificación
+00_IT7_F6R,Cuando voy de viaje hago planes cuidadosamente.,F6R,DIR,Planificación
+00_IT8_F6R,"Antes de contestar a una pregunta, la pienso dos veces.",F6R,DIR,Planificación
+00_IT1_F1AM,Tengo mucha imaginación.,F1AM,DIR,Imaginación
+00_IT2_F1AM,Trato de orientar mis pensamientos hacia la realidad y evitar fantasías.,F1AM,INV,Imaginación
+00_IT3_F1AM,Soy una persona con mucha imaginación.,F1AM,DIR,Imaginación
+00_IT4_F1AM,No me gusta perder el tiempo en fantasías.,F1AM,INV,Imaginación
+00_IT5_F1AM,"Verdaderamente disfruto concentrándome en una fantasía y en explorar todas sus posibilidades, permitiéndola crecer y desarrollarse.",F1AM,DIR,Imaginación
+00_IT6_F1AM,"Si siento que la mente se me llena de fantasías, normalmente me pongo a hacer algo y me concentro en algún trabajo o actividad.",F1AM,INV,Imaginación
+00_IT7_F1AM,Cuando era niño/a raramente disfrutaba de los juegos de ficción.,F1AM,INV,Imaginación
+00_IT8_F1AM,Me sería difícil dejar que mi mente vagara sin control o dirección.,F1AM,INV,Imaginación
+00_IT1_F2AM,Para mí los intereses estéticos y artísticos no son muy importantes.,F2AM,INV,Apertura a la cultura
+00_IT2_F2AM,A veces estoy totalmente inmerso/a en la música que escucho.,F2AM,DIR,Apertura a la cultura
+00_IT3_F2AM,El ballet clásico o moderno me aburre.,F2AM,INV,Apertura a la cultura
+00_IT4_F2AM,Me intrigan las semejanzas que encuentro entre el arte y la naturaleza.,F2AM,DIR,Apertura a la cultura
+00_IT5_F2AM,La poesía me interesa poco.,F2AM,INV,Apertura a la cultura
+00_IT6_F2AM,Ciertos tipos de música me fascinan enormemente,F2AM,DIR,Apertura a la cultura
+00_IT7_F2AM,"Algunas veces cuando leo poesía o miro una obra de arte, siento un escalofrío o una gran emoción.",F2AM,DIR,Apertura a la cultura
+00_IT8_F2AM,Disfruto leyendo poesía que enfatiza más los sentimientos y las imágenes que los aspectos narrativos.,F2AM,DIR,Apertura a la cultura
+00_IT1_F3AM,"Sin las emociones fuertes, mi vida no sería interesante.",F3AM,DIR,Apertura emocional
+00_IT2_F3AM,Raramente me expongo a emociones fuertes.,F3AM,INV,Apertura emocional
+00_IT3_F3AM,Me importa mucho mi estado de ánimo.,F3AM,DIR,Apertura emocional
+00_IT4_F3AM,Raramente presto atención a los sentimientos del momento.,F3AM,INV,Apertura emocional
+00_IT5_F3AM,Experimento una gran variedad de emociones y sentimientos.,F3AM,DIR,Apertura emocional
+00_IT6_F3AM,Raramente me doy cuenta de los estados de ánimo o emociones que producen ambientes diferentes.,F3AM,INV,Apertura emocional
+00_IT7_F3AM,"Me resulta fácil empatizar -sentir lo que sienten los demás, ponerme en su lugar-.",F3AM,DIR,Apertura emocional
+00_IT8_F3AM,Cosas raras -como ciertos olores o nombres de lugares lejanos- pueden evocar fuertes estados de ánimo en mi persona.,F3AM,DIR,Apertura emocional
+00_IT1_F4AM,Estoy muy acostumbrado a mi manera de ser.,F4AM,INV,Apertura a la experiencia
+00_IT2_F4AM,Creo que es interesante aprender cosas nuevas y desarrollar nuevas intereses.,F4AM,DIR,Apertura a la experiencia
+00_IT3_F4AM,"Cuando encuentro la forma de hacer algo correctamente, sigo trabajando así.",F4AM,INV,Apertura a la experiencia
+00_IT4_F4AM,Con frecuencia pruebo comidas nuevas de otros países.,F4AM,DIR,Apertura a la experiencia
+00_IT5_F4AM,Prefiero pasar el rato en lugares que me resultan familiares.,F4AM,INV,Apertura a la experiencia
+00_IT6_F4AM,Algunas veces hago cambios en la decoración de la casa sólo para experimentar algo diferente.,F4AM,DIR,Apertura a la experiencia
+00_IT7_F4AM,"Cuando estoy de vacaciones, prefiero ir a un lugar que ya conozco.",F4AM,INV,Apertura a la experiencia
+00_IT8_F4AM,Cuando voy a un sitio siempre realizo el mismo recorrido.,F4AM,INV,Apertura a la experiencia
+00_IT1_F5AM,A menudo me gusta pensar y desarrollas ideas abstractas.,F5AM,DIR,Curiosidad intelectual
+00_IT2_F5AM,Me aburren sobremanera las discusiones filosóficas.,F5AM,INV,Curiosidad intelectual
+00_IT3_F5AM,Disfruto resolviendo problemas o incógnitas difíciles.,F5AM,DIR,Curiosidad intelectual
+00_IT4_F5AM,No me interesa cuando la gente habla de cosas que son muy abstractas.,F5AM,INV,Curiosidad intelectual
+00_IT5_F5AM,Disfruto resolviendo rompecabezas que son muy difíciles.,F5AM,DIR,Curiosidad intelectual
+00_IT6_F5AM,Tengo poco interés en pensar sobre los enigmas del universo y de la condición humana.,F5AM,INV,Curiosidad intelectual
+00_IT7_F5AM,Tengo mucha curiosidad intelectual.,F5AM,DIR,Curiosidad intelectual
+00_IT8_F5AM,Tengo una amplia variedad de temas que me interesan intelectualmente.,F5AM,DIR,Curiosidad intelectual
+00_IT1_F6AM,Escuchar conferenciantes polémicos sólo confunde y engaña a los jóvenes.,F6AM,INV,Apertura en valores
+00_IT2_F6AM,Las leyes y normas sociales deberían cambiar y reflejar las necesidades de un mundo cambiante.,F6AM,DIR,Apertura en valores
+00_IT3_F6AM,Tenemos que inspirarnos en nuestras autoridades religiosas para resolver cuestiones morales.,F6AM,INV,Apertura en valores
+00_IT4_F6AM,Creo que las diferentes ideas sobre lo bueno y lo malo que las personas tienen en otras sociedades pueden ser totalmente válidas para ellas.,F6AM,DIR,Apertura en valores
+00_IT5_F6AM,Creo que la lealtad a los propios ideales y principios es más importante que la libertad de ideas.,F6AM,INV,Apertura en valores
+00_IT6_F6AM,Me considero liberal y tolerante sobre el modo de vida de otras personas.,F6AM,DIR,Apertura en valores
+00_IT7_F6AM,"Si las personas no saben en lo que creen cuando llegan a los 25 años, hay algo que no va bien.",F6AM,INV,Apertura en valores
+00_IT8_F6AM,Creo que la tolerancia de la “nueva moralidad” no es ninguna moralidad.,F6AM,INV,Apertura en valores
+00_IT1_DSDT,Siempre gano en los juegos en los que participo. ,DSDT,DIR,Deseabilidad Social
+00_IT2_DSDT,Siempre he tenido la certeza absoluta de que todas mis acciones eran correctas. ,DSDT,DIR,Deseabilidad Social
+00_IT3_DSDT,Nunca me he enfadado realmente con alguien.,DSDT,DIR,Deseabilidad Social
+00_IT4_DSDT,Nunca me he comportado de un modo egoísta.,DSDT,DIR,Deseabilidad Social
+00_IT5_DSDT,Nunca he contado algo sabiendo previamente que era mentira.,DSDT,DIR,Deseabilidad Social
+00_IT6_DSDT,"Nunca he tenido miedo ante una situación peligrosa, aunque fuese grave. ",DSDT,DIR,Deseabilidad Social
+00_IT7_DSDT,Todas las personas que conozco me caen realmente bien.,DSDT,DIR,Deseabilidad Social
+00_IT8_DSDT,Siempre he estado completamente de acuerdo con todo lo que hacían o decían los demás.,DSDT,DIR,Deseabilidad Social
+00_IT9_DSDT,"Nunca me he saltado una norma social ni he desobedecido órdenes, ni siquiera cuando era pequeño.",DSDT,DIR,Deseabilidad Social
+00_IT10_DSDT,He sido capaz de resolver siempre de inmediato todos los problemas que me han surgido.,DSDT,DIR,Deseabilidad Social
+00_IT11_DSDT,Siempre lo hago todo de forma perfecta.,DSDT,DIR,Deseabilidad Social
+00_IT12_DSDT,Nunca he hablado mal de otras personas a sus espaldas.,DSDT,DIR,Deseabilidad Social
