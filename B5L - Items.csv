@@ -79,7 +79,7 @@ item_id,item_texto,codigo_faceta,tipo_puntuacion,nombre_faceta
 00_IT6_F4RE,Me siento cómodo/a en presencia de mis jefes u otros superiores.,F4RE,INV,Ansiedad social
 00_IT7_F4RE,"Si he dicho o hecho algo malo a alguien, casi no puedo enfrentarme con él otra vez y mirarle a la cara.",F4RE,DIR,Ansiedad social
 00_IT8_F4RE,"Cuando las personas que conozco hacen tonterías, siento mucha vergüenza.",F4RE,DIR,Ansiedad social
-00_IT1_F5RE,Raramente abuso de algo y me paso de la ralla.,F5RE,INV,Impulsividad
+00_IT1_F5RE,Raramente abuso de algo y me paso de la raya.,F5RE,INV,Impulsividad
 00_IT2_F5RE,Tengo problemas para resistirme a mis deseos y caprichos.,F5RE,DIR,Impulsividad
 00_IT3_F5RE,No me resulta complicado resistir a la tentación.,F5RE,INV,Impulsividad
 00_IT4_F5RE,"Con mis platos favoritos, suelo comer en exceso.",F5RE,DIR,Impulsividad
